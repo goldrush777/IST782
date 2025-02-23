@@ -1,0 +1,658 @@
+"","DistrictName","WithDTP","WithPolio","WithMMR","WithHepB","PctUpToDate","DistrictComplete","PctBeliefExempt","PctMedicalExempt","PctChildPoverty","PctFamilyPoverty","PctFreeMeal","Enrolled","TotalSchools"
+"510","Waterford Unified",70,70,70,70,70,TRUE,29,0,22,14,40,337,2
+"318","Greenfield Union Elementary",100,100,100,100,100,TRUE,0,0,36,16,76,394,3
+"37","Spencer Valley Elementary",63,63,63,63,63,TRUE,37,0,23,5,39,171,1
+"529","Ripon Unified",92,92,92,92,92,TRUE,8,0,13,7,NA,265,6
+"249","Taft City",96,96,97,97,94,TRUE,0,2,33,17,73,315,4
+"798","Garfield Elementary",82,82,82,82,82,TRUE,18,0,20,14,17,11,1
+"456","Berryessa Union Elementary",98,98,99,99,97,TRUE,0,0,12,7,NA,781,10
+"59","Newport-Mesa Unified",88,89,88,92,85,TRUE,6,0,16,8,NA,1706,21
+"115","Downey Unified",96,97,96,98,94,TRUE,0,0,21,10,NA,1197,11
+"686","Anderson Valley Unified",79,84,86,91,79,TRUE,0,0,36,19,73,43,1
+"807","Blue Lake Union Elementary",85,95,60,90,55,TRUE,0,0,13,10,40,20,1
+"567","Lincoln Unified",97,97,97,98,96,TRUE,1,1,18,10,55,594,8
+"30","Ramona City Unified",90,90,90,93,87,TRUE,5,0,12,6,37,427,6
+"190","Ventura Unified",85,85,85,93,82,TRUE,5,0,15,8,NA,1341,17
+"229","Gorman Elementary",55,56,71,64,53,TRUE,26,0,5,0,NA,140,1
+"222","Buellton Union Elementary",88,88,88,87,87,TRUE,12,0,7,4,NA,86,1
+"108","Riverside Unified",95,95,95,97,93,TRUE,1,0,21,11,57,3226,30
+"169","Oxnard Union High",86,86,86,90,85,TRUE,2,5,18,10,NA,59,1
+"577","Belleview Elementary",80,80,80,80,80,TRUE,20,0,13,9,NA,20,1
+"6","Coronado Unified",83,83,81,84,77,TRUE,7,0,8,5,5,202,2
+"331","Carmel Unified",82,84,74,81,66,TRUE,11,0,15,4,12,175,3
+"334","Hanford Elementary",98,98,99,99,98,TRUE,1,0,30,17,72,762,9
+"142","Ontario-Montclair",97,97,97,99,96,TRUE,1,0,31,16,79,2925,26
+"181","Pleasant Valley",91,91,93,95,90,TRUE,5,0,10,4,NA,816,10
+"723","Bangor Union Elementary",94,94,94,94,94,TRUE,6,0,22,19,76,16,1
+"129","Jurupa Unified",97,98,97,98,94,TRUE,1,0,27,14,68,1534,16
+"255","Baker Valley Unified",100,100,100,100,100,TRUE,0,0,21,14,89,17,1
+"781","Mountain Valley Unified",67,67,71,71,67,TRUE,21,0,41,9,73,24,1
+"682","Browns Elementary",100,100,100,100,100,TRUE,0,0,23,8,44,19,1
+"569","Lagunitas Elementary",34,34,38,31,28,TRUE,59,0,2,0,16,29,2
+"402","Sierra Unified",79,79,80,82,79,TRUE,18,0,15,4,43,71,1
+"149","Redlands Unified",94,95,94,95,93,TRUE,4,0,17,8,NA,1568,16
+"580","Vallejo City Unified",96,97,96,98,95,TRUE,1,0,21,13,NA,1343,16
+"113","Moreno Valley Unified",96,97,97,98,95,TRUE,1,0,28,17,74,2595,23
+"180","Morongo Unified",94,94,94,95,93,TRUE,4,0,27,14,58,845,12
+"382","Santa Rita Union Elementary",95,94,98,97,92,TRUE,0,0,26,15,NA,340,4
+"27","Solana Beach Elementary",94,94,94,93,93,TRUE,6,0,7,4,7,411,5
+"352","Gonzales Unified",98,98,98,98,98,TRUE,0,0,28,15,NA,192,1
+"600","Liberty Elementary",81,81,79,83,78,TRUE,12,0,11,3,43,125,3
+"597","Petaluma City Elementary",86,86,86,86,85,TRUE,14,0,19,7,33,348,7
+"467","Cabrillo Unified",88,91,90,95,84,TRUE,3,0,9,4,39,263,3
+"659","Elverta Joint Elementary",85,85,85,85,85,TRUE,5,0,25,5,72,20,1
+"21","Imperial Unified",98,98,98,100,96,TRUE,0,0,18,13,40,321,2
+"143","Cucamonga Elementary",92,94,98,94,88,TRUE,1,1,23,8,58,358,3
+"446","Mt. Pleasant Elementary",96,95,96,99,93,TRUE,0,0,20,9,56,284,4
+"547","Lafayette Elementary",89,89,87,94,85,TRUE,5,0,3,1,NA,349,4
+"589","River Delta Joint Unified",91,94,93,96,90,TRUE,3,0,18,5,48,187,5
+"623","Santa Rosa Elementary",96,96,95,96,94,TRUE,3,0,17,11,56,1025,14
+"652","Geyserville Unified",91,95,100,100,91,TRUE,0,0,13,7,NA,22,1
+"445","Hilmar Unified",97,97,97,97,97,TRUE,3,0,29,17,46,188,2
+"833","Happy Camp Union Elementary",60,87,60,93,33,TRUE,7,0,39,24,62,15,1
+"526","Banta Elementary",97,97,97,96,96,TRUE,1,0,21,20,44,100,2
+"94","Bellflower Unified",97,98,97,98,96,TRUE,1,0,20,11,61,1070,11
+"252","Midway Elementary",100,100,100,100,100,TRUE,0,0,27,5,32,14,1
+"126","Rowland Unified",98,98,98,98,97,TRUE,1,0,24,9,58,1192,15
+"275","Templeton Unified",84,84,84,85,84,TRUE,15,0,10,6,NA,200,1
+"23","Santee",96,96,96,96,96,TRUE,3,0,11,7,33,696,9
+"24","Holtville Unified",100,100,100,100,100,TRUE,0,0,27,19,NA,106,2
+"825","Big Springs Union Elementary",71,71,71,71,71,TRUE,29,0,23,5,NA,17,1
+"786","Millville Elementary",74,83,83,83,74,TRUE,17,0,14,2,33,23,1
+"2","San Ysidro Elementary",98,99,99,99,98,TRUE,0,0,36,20,NA,521,4
+"19","Meadows Union Elementary",100,100,100,100,100,TRUE,0,0,39,23,71,48,1
+"366","Pacific Grove Unified",78,83,79,85,74,TRUE,10,0,8,5,16,156,2
+"809","Burnt Ranch Elementary",56,56,56,56,56,TRUE,44,0,35,11,49,16,1
+"658","Eureka Union",84,85,83,86,83,TRUE,11,0,7,2,10,309,3
+"52","Vallecitos Elementary",87,100,87,100,84,TRUE,0,0,31,9,NA,31,1
+"184","Rialto Unified",97,97,97,98,96,TRUE,1,0,28,18,NA,1910,19
+"625","Piner-Olivet Union Elementary",93,95,93,97,90,TRUE,2,0,9,4,36,165,3
+"390","Hollister",98,99,98,99,98,TRUE,1,0,16,11,59,687,8
+"586","Old Adobe Union",95,96,96,98,95,TRUE,2,0,10,5,36,245,5
+"464","Las Lomitas Elementary",95,95,95,95,95,TRUE,3,1,3,2,4,128,1
+"38","Carlsbad Unified",91,91,90,91,89,TRUE,8,0,13,8,NA,650,9
+"265","Fruitvale Elementary",90,90,90,90,90,TRUE,10,0,18,7,29,484,4
+"471","Chatom Union",97,97,97,97,97,TRUE,3,0,33,14,NA,97,1
+"550","Brentwood Union Elementary",94,95,94,95,93,TRUE,4,0,9,5,22,871,8
+"581","Lodi Unified",96,96,96,98,95,TRUE,1,0,20,12,61,2233,32
+"535","Big Oak Flat-Groveland Unified",75,75,71,75,71,TRUE,25,0,14,4,52,28,1
+"42","Magnolia Union Elementary",94,100,100,100,94,TRUE,0,0,24,0,17,16,1
+"648","Natomas Unified",86,88,85,93,83,TRUE,3,1,18,8,NA,1119,10
+"276","Sierra Sands Unified",79,75,74,87,71,TRUE,5,0,22,8,52,410,6
+"192","Moorpark Unified",94,95,95,94,94,TRUE,5,0,10,4,32,540,6
+"136","Pomona Unified",96,97,96,98,95,TRUE,0,0,29,15,NA,2055,27
+"460","Palo Alto Unified",88,87,88,87,87,TRUE,2,1,4,3,7,927,13
+"299","Big Sur Unified",23,23,23,23,23,TRUE,77,0,20,0,NA,13,1
+"806","Trinity Alps Unified",83,83,83,83,83,TRUE,17,0,25,7,NA,29,1
+"93","Buena Park Elementary",99,99,99,99,98,TRUE,1,0,21,10,65,626,6
+"605","Napa Valley Unified",94,95,95,96,94,TRUE,3,0,13,8,NA,1424,20
+"246","Silver Valley Unified",96,97,96,98,96,TRUE,1,1,23,16,43,295,3
+"668","Pleasant Grove Joint Union",92,92,92,96,92,TRUE,4,0,11,1,NA,25,1
+"562","Bolinas-Stinson Union",46,38,54,62,38,TRUE,38,0,24,13,24,13,1
+"669","Camino Union Elementary",57,75,56,82,52,TRUE,5,0,14,4,47,61,1
+"813","McKinleyville Union Elementary",79,77,75,90,72,TRUE,6,0,20,11,40,173,2
+"257","Atascadero Unified",90,89,91,92,88,TRUE,7,0,14,9,35,365,6
+"157","Central Elementary",97,97,97,97,95,TRUE,1,1,16,4,48,510,5
+"223","Wilsona Elementary",99,99,99,99,99,TRUE,1,0,37,24,89,157,1
+"1","South Bay Union",96,96,96,98,95,TRUE,1,0,30,16,54,1044,11
+"206","Acton-Agua Dulce Unified",80,77,82,86,76,TRUE,13,0,14,4,NA,79,2
+"665","Cloverdale Unified",96,96,96,96,96,TRUE,4,0,12,5,58,114,1
+"461","Mountain View Whisman",97,97,97,97,96,TRUE,3,0,11,6,34,655,7
+"800","Lewiston Elementary",90,90,90,90,90,TRUE,10,0,47,23,74,10,1
+"697","Wheatland",98,99,98,99,97,TRUE,1,0,31,12,25,201,3
+"620","Oak Grove Union Elementary",80,80,80,80,80,TRUE,20,0,14,4,20,71,1
+"219","Fillmore Unified",97,98,97,99,96,TRUE,0,0,23,11,72,255,3
+"316","Springville Union Elementary",96,96,96,96,96,TRUE,4,0,26,2,39,24,1
+"320","Lindsay Unified",98,99,98,100,98,TRUE,0,0,53,31,NA,359,6
+"804","Jacoby Creek Elementary",79,77,77,84,77,TRUE,9,0,12,5,NA,43,1
+"459","Round Valley Joint Elementary",100,100,100,100,100,TRUE,0,0,12,3,30,13,1
+"772","Shaffer Union Elementary",57,57,52,83,52,TRUE,0,0,20,11,55,23,1
+"61","Menifee Union Elementary",95,95,95,95,94,TRUE,4,0,15,7,NA,1208,10
+"728","Biggs Unified",80,80,80,91,74,TRUE,9,0,33,18,70,35,1
+"522","San Francisco Unified",90,90,93,92,88,TRUE,1,0,17,8,NA,4552,73
+"700","Clear Creek Elementary",76,76,76,76,76,TRUE,19,0,14,6,NA,21,1
+"220","Solvang Elementary",89,89,89,89,89,TRUE,11,0,11,1,39,93,1
+"628","Davis Joint Unified",95,96,95,95,94,TRUE,4,0,9,8,20,604,9
+"322","Oak Valley Union Elementary",95,92,95,98,90,TRUE,2,0,35,15,73,63,1
+"797","Bella Vista Elementary",92,92,92,92,92,TRUE,8,0,18,8,54,36,1
+"28","Brawley Elementary",98,98,98,99,97,TRUE,0,0,31,21,65,463,4
+"558","Knightsen Elementary",100,100,98,100,98,TRUE,0,0,19,18,34,55,1
+"95","Fullerton Elementary",96,96,96,97,95,TRUE,3,0,19,10,NA,1448,17
+"517","Salida Union Elementary",97,97,97,97,96,TRUE,3,0,19,8,NA,290,3
+"443","Newman-Crows Landing Unified",85,85,85,98,85,TRUE,2,0,26,19,57,273,4
+"655","Woodland Joint Unified",98,98,98,98,97,TRUE,1,0,17,8,59,872,11
+"737","Pioneer Union Elementary",100,99,99,100,99,TRUE,0,0,23,7,31,228,3
+"584","Shoreline Unified",86,89,89,89,84,TRUE,5,0,7,4,48,37,2
+"96","Placentia-Yorba Linda Unified",93,93,92,95,91,TRUE,4,0,12,6,NA,2124,21
+"160","San Marino Unified",96,96,92,98,89,TRUE,0,0,8,3,NA,179,2
+"739","Plaza Elementary",94,94,94,94,94,TRUE,0,6,21,3,19,17,1
+"415","Pacific Elementary",73,73,73,73,73,TRUE,27,0,10,5,NA,15,1
+"397","Pajaro Valley Unified",95,95,95,97,94,TRUE,2,0,24,14,NA,1812,19
+"227","Hughes-Elizabeth Lakes Union Elementary",64,64,64,64,64,TRUE,28,0,19,5,41,25,1
+"718","Upper Lake Union Elementary",89,89,89,89,89,TRUE,11,0,27,14,NA,64,1
+"473","Turlock Unified",96,96,96,97,96,TRUE,3,0,24,13,50,1082,9
+"462","Bass Lake Joint Union Elementary",87,87,87,90,87,TRUE,6,0,24,10,NA,140,2
+"616","Kenwood",90,90,90,90,90,TRUE,5,5,8,3,11,20,1
+"774","Cascade Union Elementary",82,83,82,93,79,TRUE,2,0,30,15,80,157,1
+"673","Marcum-Illinois Union Elementary",47,47,47,47,47,TRUE,53,0,15,4,36,153,2
+"626","Forestville Union Elementary",92,92,92,94,92,TRUE,6,0,15,6,46,49,1
+"821","Surprise Valley Joint Unified",92,92,92,83,83,TRUE,0,8,28,17,61,12,1
+"251","Mojave Unified",93,95,92,96,88,TRUE,1,0,47,24,82,252,2
+"53","Capistrano Unified",78,80,78,85,72,TRUE,9,1,9,4,NA,3658,39
+"358","Alvina Elementary",100,100,100,100,100,TRUE,0,0,48,19,72,19,1
+"614","Dixon Unified",98,98,99,99,97,TRUE,0,0,12,7,53,221,3
+"592","Twain Harte",93,93,93,93,93,TRUE,7,0,11,6,54,41,1
+"204","Sulphur Springs Union",80,81,81,88,78,TRUE,9,0,17,7,38,822,9
+"622","Amador County Unified",84,85,82,87,82,TRUE,10,0,16,6,NA,291,6
+"542","Walnut Creek Elementary",93,93,93,92,92,TRUE,7,0,6,3,8,379,5
+"260","Elk Hills Elementary",95,95,95,95,95,TRUE,5,0,37,25,NA,19,1
+"338","Westside Elementary",87,87,93,100,87,TRUE,0,0,43,35,82,30,1
+"413","Chowchilla Elementary",98,97,97,98,96,TRUE,1,0,25,15,69,271,1
+"368","Monterey Peninsula Unified",93,94,92,96,90,TRUE,2,0,19,8,NA,1037,12
+"559","Eastern Sierra Unified",95,100,100,100,95,TRUE,0,0,26,5,40,21,1
+"296","Reef-Sunset Unified",100,100,100,100,100,TRUE,0,0,39,38,85,315,3
+"583","New Hope Elementary",90,90,90,90,90,TRUE,5,5,30,24,NA,20,1
+"98","Compton Unified",93,93,92,95,91,TRUE,0,0,34,21,87,2478,22
+"310","Palo Verde Union Elementary",100,100,100,100,100,TRUE,0,0,47,28,79,55,1
+"131","Montebello Unified",99,99,99,99,99,TRUE,1,0,30,17,NA,2113,17
+"612","Bennett Valley Union Elementary",95,95,94,92,91,TRUE,5,0,8,1,NA,168,1
+"434","Campbell Union",95,95,95,97,93,TRUE,2,0,17,9,NA,965,9
+"60","Saddleback Valley Unified",85,86,86,91,83,TRUE,6,1,9,4,NA,2103,23
+"422","Los Gatos Union Elementary",90,91,90,93,89,TRUE,4,0,4,2,3,308,4
+"247","Lucia Mar Unified",91,91,91,91,91,TRUE,9,0,13,6,46,805,11
+"805","Ravendale-Termo Elementary",78,78,78,78,78,TRUE,22,0,19,0,45,58,2
+"86","San Jacinto Unified",94,95,95,96,93,TRUE,2,0,28,16,NA,850,8
+"396","Golden Valley Unified",92,96,90,95,88,TRUE,3,0,14,3,NA,176,2
+"241","Santa Maria-Bonita",99,99,99,99,99,TRUE,0,0,30,17,76,2078,15
+"117","Beaumont Unified",92,92,92,93,92,TRUE,6,0,17,8,NA,701,6
+"150","El Monte City",97,95,95,99,88,TRUE,0,0,35,17,NA,962,14
+"31","Cardiff Elementary",80,80,82,83,78,TRUE,17,0,11,5,9,92,1
+"354","Monson-Sultana Joint Union Elementary",98,98,100,100,95,TRUE,0,0,51,34,71,42,1
+"391","Dos Palos Oro Loma Joint Unified",98,98,98,99,98,TRUE,1,0,44,29,NA,213,1
+"49","Bonsall Union Elementary",93,93,93,94,92,TRUE,5,0,13,5,30,335,3
+"672","Arena Union Elementary",91,91,91,100,91,TRUE,0,0,27,6,68,23,1
+"819","McCloud Union Elementary",80,80,80,80,80,TRUE,20,0,23,14,70,10,1
+"717","Maxwell Unified",100,100,97,100,97,TRUE,0,0,17,11,NA,30,1
+"301","Corcoran Joint Unified",98,99,98,99,97,TRUE,0,0,32,23,86,330,1
+"518","San Leandro Unified",98,98,98,98,98,TRUE,2,0,16,7,54,686,8
+"420","Plainsburg Union Elementary",100,100,100,100,100,TRUE,0,0,24,6,42,12,1
+"26","Poway Unified",95,95,95,95,93,TRUE,3,0,7,3,12,2931,25
+"404","Soquel Union Elementary",79,80,78,85,76,TRUE,11,0,10,6,NA,243,4
+"175","Oak Park Unified",84,84,85,93,82,TRUE,6,1,8,5,4,310,3
+"377","Orange Center",84,84,84,84,84,TRUE,16,0,51,35,59,86,2
+"703","Chicago Park Elementary",83,83,83,83,83,TRUE,17,0,16,10,NA,12,1
+"788","Susanville Elementary",100,100,100,100,100,TRUE,0,0,24,11,49,179,1
+"643","Healdsburg Unified",89,90,90,93,88,TRUE,6,1,14,8,NA,152,2
+"214","Keppel Union Elementary",88,88,87,96,85,TRUE,2,0,27,12,79,265,5
+"125","El Rancho Unified",97,97,97,98,96,TRUE,1,0,22,11,NA,716,8
+"621","Monte Rio Union Elementary",62,62,62,62,63,TRUE,31,0,4,9,NA,16,1
+"483","San Mateo-Foster City",98,98,98,98,97,TRUE,1,0,10,4,27,1515,16
+"698","Colfax Elementary",87,87,87,87,87,TRUE,13,0,15,8,36,55,2
+"244","Arvin Union",99,99,99,100,98,TRUE,0,0,45,35,76,411,3
+"421","Lakeside Joint",86,86,79,86,79,TRUE,7,0,7,2,2,14,1
+"277","Wasco Union Elementary",99,99,99,99,99,TRUE,0,0,37,25,80,408,4
+"243","Maricopa Unified",68,68,68,68,68,TRUE,32,0,36,21,NA,197,3
+"633","Winters Joint Unified",95,95,94,95,93,TRUE,5,0,14,7,NA,128,1
+"34","San Pasqual Valley Unified",83,83,82,98,78,TRUE,1,0,39,28,NA,83,1
+"289","San Miguel Joint Union",83,84,83,87,82,TRUE,11,0,28,10,48,134,3
+"735","Durham Unified",82,82,82,82,82,TRUE,18,0,18,7,31,83,1
+"103","Banning Unified",99,99,99,99,98,TRUE,1,0,33,15,78,412,4
+"528","Knights Ferry Elementary",80,80,80,80,80,TRUE,20,0,13,4,32,10,1
+"51","Fallbrook Union Elementary",92,93,92,93,91,TRUE,5,1,25,11,45,765,7
+"606","Cotati-Rohnert Park Unified",98,98,97,97,96,TRUE,2,0,11,7,NA,453,6
+"317","Central Union Elementary",97,97,97,96,96,TRUE,2,0,18,15,34,283,4
+"394","Clovis Unified",95,95,95,96,94,TRUE,3,0,16,8,36,3361,32
+"330","Kit Carson Union Elementary",98,98,96,100,96,TRUE,0,0,27,6,65,49,1
+"451","Portola Valley Elementary",97,97,97,97,97,TRUE,3,0,6,1,7,64,1
+"829","Del Norte County Unified",92,92,93,92,91,TRUE,7,0,30,17,NA,292,7
+"146","Beverly Hills Unified",77,77,76,83,71,TRUE,12,1,16,6,4,270,4
+"725","Twin Ridges Elementary",62,62,54,69,46,TRUE,31,0,37,15,77,13,1
+"716","Nevada City Elementary",84,82,82,82,82,TRUE,15,0,13,8,26,91,1
+"20","El Centro Elementary",97,97,97,98,97,TRUE,2,0,39,26,66,669,12
+"72","Palos Verdes Peninsula Unified",87,87,83,90,76,TRUE,6,1,6,3,NA,678,11
+"127","Walnut Valley Unified",95,96,95,97,94,TRUE,2,1,14,4,12,734,9
+"314","Buena Vista Elementary",93,93,93,93,93,TRUE,7,0,44,13,58,14,1
+"466","Milpitas Unified",94,94,94,95,93,TRUE,1,1,11,5,NA,721,9
+"75","Los Alamitos Unified",93,93,93,95,92,TRUE,4,0,7,4,10,826,6
+"262","Fairfax Elementary",96,96,96,99,94,TRUE,0,0,32,21,NA,297,1
+"81","Desert Sands Unified",95,96,95,97,94,TRUE,2,0,25,10,NA,2067,20
+"312","Sunnyside Union Elementary",100,100,97,100,97,TRUE,0,0,54,35,78,37,1
+"197","Newhall",95,95,96,97,94,TRUE,2,0,16,8,34,922,10
+"497","Roberts Ferry Union Elementary",100,100,100,100,100,TRUE,0,0,22,9,39,13,1
+"763","Evergreen Union",89,89,89,89,88,TRUE,9,0,20,11,48,114,1
+"140","Garvey Elementary",98,98,98,99,98,TRUE,1,0,40,16,73,645,8
+"454","Sunnyvale",95,96,97,97,92,TRUE,1,0,11,4,NA,929,8
+"11","Lemon Grove",97,98,97,98,97,TRUE,2,0,28,12,NA,458,6
+"58","Hemet Unified",96,97,97,97,95,TRUE,2,0,27,15,NA,1573,14
+"561","Martinez Unified",95,95,94,96,94,TRUE,4,0,10,5,NA,316,4
+"594","Oak View Union Elementary",95,95,95,95,95,TRUE,5,0,27,12,42,44,1
+"596","Cinnabar Elementary",62,64,64,83,62,TRUE,0,0,17,3,NA,42,2
+"681","Auburn Union Elementary",87,88,85,92,84,TRUE,5,0,16,7,54,243,4
+"556","Mt. Diablo Unified",96,96,96,97,95,TRUE,2,0,14,7,41,2741,28
+"505","New Jerusalem Elementary",86,86,86,86,86,TRUE,14,0,15,4,NA,202,3
+"575","Columbia Union",78,80,77,80,77,TRUE,17,0,18,9,50,60,1
+"109","Lynwood Unified",93,94,94,99,90,TRUE,0,0,32,22,NA,1150,12
+"790","Douglas City Elementary",84,84,84,84,84,TRUE,16,0,30,16,39,19,1
+"185","Rim of the World Unified",91,92,92,92,90,TRUE,6,0,18,9,53,264,4
+"745","Round Valley Unified",86,86,90,93,86,TRUE,7,0,59,24,NA,29,1
+"830","Montague Elementary",85,85,85,85,85,TRUE,15,0,32,11,59,34,1
+"399","Santa Cruz City Elementary",84,84,84,85,81,TRUE,12,0,11,6,37,407,5
+"671","Loomis Union Elementary",86,87,86,87,86,TRUE,11,0,9,4,NA,383,8
+"179","Oxnard",99,99,99,100,98,TRUE,0,0,26,14,NA,2118,17
+"453","Orchard Elementary",99,99,99,98,98,TRUE,1,0,10,4,39,122,1
+"826","Grenada Elementary",100,100,100,100,100,TRUE,0,0,36,16,44,20,1
+"767","Richmond Elementary",95,95,95,90,90,TRUE,5,0,7,4,NA,20,1
+"375","Mendota Unified",100,100,100,100,100,TRUE,0,0,57,43,NA,344,1
+"171","Conejo Valley Unified",87,89,86,94,83,TRUE,4,0,9,5,22,1277,17
+"280","McFarland Unified",89,92,91,100,89,TRUE,0,0,39,30,NA,322,2
+"91","ABC Unified",93,94,93,97,91,TRUE,1,0,19,9,42,1565,19
+"106","Hawthorne",97,97,98,99,96,TRUE,0,0,31,20,79,1040,7
+"64","Lake Elsinore Unified",94,95,95,95,94,TRUE,3,0,20,10,NA,1791,15
+"578","Benicia Unified",92,93,92,97,91,TRUE,2,0,7,4,19,372,4
+"155","South Pasadena Unified",88,90,88,90,85,TRUE,8,0,9,5,9,365,3
+"455","Chawanakee Unified",75,76,76,80,75,TRUE,17,0,37,9,50,59,2
+"172","Burbank Unified",91,90,90,95,87,TRUE,3,0,15,6,27,973,11
+"297","San Antonio Union Elementary",81,75,75,81,75,TRUE,0,0,20,7,NA,16,1
+"740","Golden Feather Union Elementary",80,90,80,90,80,TRUE,10,0,27,21,NA,10,1
+"245","Barstow Unified",92,92,93,94,91,TRUE,3,1,31,19,NA,566,6
+"346","Laton Joint Unified",96,97,96,100,96,TRUE,0,0,27,15,78,75,1
+"48","Calipatria Unified",99,99,98,98,97,TRUE,0,0,36,21,NA,108,2
+"657","Rescue Union Elementary",90,90,89,90,89,TRUE,10,0,5,2,12,409,5
+"593","Calaveras Unified",80,82,78,88,77,TRUE,8,0,19,8,49,259,5
+"758","Reeds Creek Elementary",91,91,91,82,82,TRUE,9,0,33,15,NA,11,1
+"300","Pixley Union Elementary",100,98,100,100,98,TRUE,0,0,46,32,NA,117,1
+"238","Southern Kern Unified",94,94,94,97,92,TRUE,1,1,33,17,76,278,2
+"345","Burrel Union Elementary",100,100,100,100,100,TRUE,0,0,30,29,NA,19,1
+"802","Eureka City Schools",80,84,77,95,74,TRUE,1,0,27,13,65,313,4
+"272","Cayucos Elementary",76,67,71,81,67,TRUE,14,0,46,11,33,21,1
+"9","McCabe Union Elementary",97,97,98,98,97,TRUE,1,1,14,4,19,153,1
+"627","Rincon Valley Union Elementary",92,91,92,93,91,TRUE,6,0,10,6,29,510,8
+"307","Alta Vista Elementary",96,96,99,99,96,TRUE,0,0,61,33,87,81,1
+"634","Latrobe",85,85,85,85,85,TRUE,0,0,11,5,7,13,1
+"570","Mark Twain Union Elementary",84,85,85,86,83,TRUE,10,0,18,6,49,88,2
+"734","Thermalito Union Elementary",93,94,92,94,92,TRUE,6,0,45,25,NA,169,3
+"4","Chula Vista Elementary",97,98,98,98,97,TRUE,2,0,19,9,38,3945,47
+"217","Victor Elementary",89,90,88,91,86,TRUE,4,0,35,22,72,1788,18
+"43","Vista Unified",93,93,93,95,92,TRUE,3,1,20,10,56,1932,19
+"285","Lost Hills Union Elementary",100,100,100,100,100,TRUE,0,0,42,37,97,90,1
+"68","Santa Ana Unified",96,96,96,99,94,TRUE,0,0,29,18,NA,5058,38
+"729","Willits Unified",75,74,78,87,71,TRUE,5,0,30,14,66,172,3
+"221","Palmdale Elementary",96,97,97,97,96,TRUE,2,0,30,19,74,2387,20
+"22","Alpine Union Elementary",74,74,74,91,26,TRUE,5,0,9,5,NA,184,1
+"732","Willows Unified",99,99,100,99,99,TRUE,0,0,26,14,67,125,1
+"585","Petaluma Joint Union High",73,75,75,73,73,TRUE,25,0,9,5,14,52,1
+"118","Lowell Joint",94,95,94,95,94,TRUE,4,0,13,6,28,341,5
+"766","Antelope Elementary",96,96,94,94,93,TRUE,4,0,29,13,NA,90,1
+"447","Los Altos Elementary",98,98,98,98,97,TRUE,2,0,4,2,NA,455,7
+"810","Gateway Unified",86,88,87,88,83,TRUE,9,1,34,17,NA,321,7
+"3","Sweetwater Union High",84,83,82,97,81,TRUE,0,0,22,12,56,182,2
+"361","Monroe Elementary",100,100,100,100,100,TRUE,0,0,55,16,NA,33,1
+"230","Westside Union Elementary",93,93,93,93,92,TRUE,6,0,12,6,NA,944,10
+"298","Terra Bella Union Elementary",100,100,100,100,100,TRUE,0,0,59,30,100,163,1
+"205","Cold Spring Elementary",87,87,75,69,69,TRUE,13,0,10,7,0,16,1
+"47","Valley Center-Pauma Unified",84,83,86,86,83,TRUE,13,0,13,5,47,359,3
+"168","Duarte Unified",98,98,97,98,97,TRUE,1,0,21,8,64,306,5
+"162","Arcadia Unified",97,97,97,98,96,TRUE,1,0,13,8,13,531,6
+"458","Winton",98,98,99,98,98,TRUE,1,0,36,25,88,245,3
+"711","Pleasant Valley Elementary",85,85,93,92,84,TRUE,7,0,13,7,34,61,1
+"765","Mattole Unified",28,30,28,34,28,TRUE,51,0,16,18,39,53,1
+"430","McSwain Union Elementary",79,83,79,94,77,TRUE,0,0,16,7,NA,96,1
+"88","Val Verde Unified",97,97,97,98,96,TRUE,1,0,26,16,NA,1496,12
+"525","Oakdale Joint Unified",97,97,97,97,96,TRUE,3,0,17,12,NA,399,4
+"279","Kernville Union Elementary",93,94,91,99,90,TRUE,0,0,44,14,NA,140,2
+"78","Palm Springs Unified",96,96,96,99,95,TRUE,0,0,33,14,NA,1821,16
+"442","Luther Burbank",95,96,99,98,92,TRUE,0,0,24,12,80,96,1
+"324","Armona Union Elementary",96,96,96,96,96,TRUE,4,0,31,14,67,143,2
+"444","East Side Union High",96,96,91,98,89,TRUE,0,0,16,9,68,46,1
+"259","Lamont Elementary",97,99,97,100,95,TRUE,0,0,50,28,80,408,2
+"653","Pollock Pines Elementary",80,84,80,88,76,TRUE,6,0,23,8,NA,85,1
+"579","Novato Unified",94,94,94,95,92,TRUE,4,0,9,4,NA,657,9
+"408","Happy Valley Elementary",63,58,53,63,47,TRUE,32,0,8,1,8,19,1
+"488","Burlingame Elementary",85,89,86,93,79,TRUE,4,0,10,7,10,462,5
+"785","Enterprise Elementary",84,85,84,93,82,TRUE,4,0,28,13,58,517,6
+"493","Shiloh Elementary",100,100,100,100,100,TRUE,0,0,34,22,NA,14,1
+"111","Brea-Olinda Unified",95,96,97,97,94,TRUE,2,0,10,5,NA,434,6
+"159","Las Virgenes Unified",88,88,88,89,86,TRUE,10,0,8,4,5,773,9
+"323","Lakeside Union Elementary",91,92,90,93,89,TRUE,5,0,41,19,44,735,8
+"371","Fowler Unified",99,98,100,100,98,TRUE,0,0,38,22,77,235,2
+"764","Janesville Union Elementary",86,83,86,93,76,TRUE,3,0,18,5,33,29,1
+"604","Dunham Elementary",93,93,93,96,93,TRUE,0,0,16,2,22,28,1
+"613","Bellevue Union Elementary",98,98,98,99,98,TRUE,1,0,27,14,78,328,4
+"76","Perris Elementary",99,99,99,99,99,TRUE,0,0,57,33,83,784,8
+"248","Tehachapi Unified",90,90,89,91,88,TRUE,6,1,21,9,NA,280,3
+"376","Alisal Union",87,86,86,98,82,TRUE,0,0,34,20,NA,1418,13
+"384","Central Unified",98,98,98,98,97,TRUE,1,0,28,13,NA,1295,13
+"66","Fountain Valley Elementary",94,95,94,95,92,TRUE,4,0,9,4,16,664,7
+"349","Kingsburg Elementary Charter",96,97,97,96,95,TRUE,3,0,24,14,44,306,2
+"812","Fall River Joint Unified",72,71,74,87,68,TRUE,4,0,15,10,53,114,2
+"631","Windsor Unified",92,92,92,93,91,TRUE,6,0,9,4,NA,454,3
+"660","Center Joint Unified",84,84,83,84,83,TRUE,16,0,22,11,53,343,4
+"608","Gravenstein Union Elementary",70,68,69,83,68,TRUE,17,0,12,9,9,98,1
+"166","Glendora Unified",94,94,94,95,93,TRUE,3,1,10,4,NA,595,5
+"724","Palermo Union Elementary",97,97,97,98,97,TRUE,2,0,31,13,75,167,1
+"792","Columbia Elementary",86,86,86,86,86,TRUE,14,0,16,5,31,101,1
+"582","Summerville Union High",76,76,76,76,76,TRUE,21,3,9,9,48,33,1
+"496","San Bruno Park Elementary",96,98,97,98,96,TRUE,1,0,10,6,29,372,6
+"253","Vineland Elementary",96,96,94,100,94,TRUE,0,0,49,38,99,106,1
+"233","Helendale Elementary",73,73,74,78,66,TRUE,20,0,14,10,22,146,2
+"132","Hacienda la Puente Unified",95,95,95,97,93,TRUE,1,0,23,7,NA,1412,23
+"5","National Elementary",91,91,91,96,90,TRUE,0,0,32,20,64,874,11
+"231","Eastside Union Elementary",98,98,98,98,98,TRUE,2,0,26,18,83,378,3
+"719","Manzanita Elementary",89,89,89,89,89,TRUE,11,0,28,16,30,28,1
+"646","Robla Elementary",94,96,95,98,94,TRUE,1,0,35,16,NA,337,5
+"452","Merced City Elementary",95,96,95,99,94,TRUE,1,0,37,21,NA,1371,12
+"609","Twin Hills Union Elementary",70,72,73,75,70,TRUE,25,0,10,2,17,117,3
+"664","Gold Trail Union Elementary",94,94,88,94,88,TRUE,6,0,11,4,20,81,1
+"645","San Juan Unified",73,75,73,87,71,TRUE,10,0,23,9,46,3557,47
+"343","Three Rivers Union Elementary",81,75,75,81,69,TRUE,6,0,17,5,NA,16,1
+"164","Upland Unified",93,93,94,95,92,TRUE,4,0,18,8,49,904,10
+"218","Castaic Union",99,99,99,99,99,TRUE,0,0,15,6,24,272,3
+"362","Selma Unified",99,99,98,98,98,TRUE,0,0,40,22,71,527,8
+"654","Horicon Elementary",90,90,90,90,90,TRUE,0,0,4,0,76,10,1
+"520","Stanislaus Union Elementary",97,98,97,98,97,TRUE,2,0,27,11,NA,403,5
+"705","Ready Springs Union Elementary",76,76,76,82,76,TRUE,18,0,22,8,68,33,1
+"595","Galt Joint Union Elementary",94,94,94,94,94,TRUE,5,0,23,11,NA,377,5
+"610","Harmony Union Elementary",62,62,62,61,61,TRUE,38,0,11,2,NA,64,2
+"328","Farmersville Unified",98,99,99,99,98,TRUE,0,0,55,32,NA,171,1
+"234","Los Olivos Elementary",89,89,89,89,89,TRUE,11,0,7,7,7,19,1
+"308","Burton Elementary",99,98,99,99,98,TRUE,1,0,33,11,55,418,4
+"540","Mill Valley Elementary",89,88,88,88,84,TRUE,9,0,5,3,NA,368,5
+"25","Del Mar Union Elementary",96,96,96,96,95,TRUE,3,0,6,5,4,559,8
+"147","Rosemead Elementary",100,100,100,100,100,TRUE,0,0,33,11,65,273,4
+"650","Gold Oak Union Elementary",73,73,69,85,68,TRUE,10,0,8,3,NA,62,1
+"353","Dinuba Unified",97,98,97,99,96,TRUE,1,0,48,24,76,570,6
+"706","Brittan Elementary",82,85,80,98,76,TRUE,0,0,27,14,43,66,1
+"82","Cypress Elementary",96,98,96,98,95,TRUE,2,0,11,4,NA,572,6
+"39","Escondido Union",94,94,94,95,93,TRUE,4,0,23,12,58,2312,19
+"141","West Covina Unified",91,91,91,92,90,TRUE,8,0,17,5,48,927,9
+"359","Golden Plains Unified",97,97,98,98,97,TRUE,0,1,55,44,NA,161,3
+"423","Gustine Unified",96,99,99,98,96,TRUE,1,0,36,19,84,141,2
+"538","Byron Union Elementary",97,96,93,96,91,TRUE,2,0,17,7,21,159,2
+"831","Tulelake Basin Joint Unified",93,93,95,98,93,TRUE,0,0,27,14,NA,55,1
+"284","Coast Unified",96,96,96,96,96,TRUE,4,0,16,2,NA,46,1
+"195","Hesperia Unified",96,97,97,97,95,TRUE,2,0,28,18,NA,1739,17
+"694","Lucerne Elementary",79,82,79,85,79,TRUE,15,0,50,20,77,34,1
+"469","Patterson Joint Unified",99,100,99,100,99,TRUE,0,0,23,12,NA,497,5
+"641","Mother Lode Union Elementary",94,94,95,95,93,TRUE,5,0,16,7,49,131,1
+"541","Escalon Unified",94,94,94,96,94,TRUE,2,0,15,5,48,225,5
+"759","Red Bluff Union Elementary",96,96,96,96,95,TRUE,3,0,42,19,69,296,3
+"416","El Nido Elementary",100,100,100,100,100,TRUE,0,0,27,13,NA,21,1
+"282","Trona Joint Unified",100,100,100,100,100,TRUE,0,0,33,19,58,15,1
+"722","Gridley Unified",98,98,98,98,98,TRUE,2,0,28,15,NA,171,1
+"651","Alexander Valley Union Elementary",94,94,94,88,88,TRUE,6,0,16,1,NA,17,1
+"516","Sylvan Union Elementary",90,90,90,93,89,TRUE,6,2,23,11,43,929,11
+"102","Norwalk-La Mirada Unified",94,95,94,98,92,TRUE,1,0,19,8,69,1512,17
+"513","Brisbane Elementary",100,100,100,100,100,TRUE,0,0,8,3,21,36,2
+"692","Pleasant Ridge Union Elementary",87,84,84,91,80,TRUE,9,0,12,4,NA,116,2
+"727","Princeton Joint Unified",92,92,92,92,92,TRUE,8,0,14,4,65,12,1
+"33","Julian Union Elementary",56,56,55,63,51,TRUE,32,1,15,8,25,193,3
+"293","Ducor Union Elementary",92,92,96,96,92,TRUE,0,0,49,26,77,24,1
+"291","Richgrove Elementary",100,100,100,100,100,TRUE,0,0,56,35,NA,90,1
+"104","El Segundo Unified",88,89,87,93,84,TRUE,3,0,6,2,NA,245,2
+"288","Pond Union Elementary",100,100,100,100,100,TRUE,0,0,37,27,84,20,1
+"707","Nuestro Elementary",64,64,64,64,64,TRUE,36,0,16,5,NA,56,2
+"823","Weed Union Elementary",80,80,80,80,80,TRUE,20,0,33,27,NA,20,1
+"379","West Park Elementary",100,100,100,100,100,TRUE,0,0,52,22,85,38,1
+"212","Needles Unified",71,80,70,67,61,TRUE,10,0,33,18,69,69,1
+"8","Jamul-Dulzura Union Elementary",79,79,79,87,73,TRUE,11,0,19,10,NA,95,2
+"401","Live Oak Elementary",87,89,88,90,84,TRUE,7,0,22,9,NA,246,4
+"544","Albany City Unified",82,88,85,92,76,TRUE,2,0,13,9,NA,327,4
+"202","Hope Elementary",86,87,82,89,81,TRUE,6,1,10,3,NA,180,4
+"287","Delano Union Elementary",99,99,98,99,98,TRUE,0,0,43,29,NA,791,9
+"161","Bonita Unified",94,95,95,96,94,TRUE,3,0,11,5,30,666,8
+"281","Semitropic Elementary",100,100,100,100,100,TRUE,0,0,31,33,NA,40,1
+"350","Kings River Union Elementary",98,98,98,98,98,TRUE,2,0,51,31,NA,47,1
+"814","Trinidad Union Elementary",37,37,32,32,26,TRUE,11,0,19,7,44,19,1
+"744","Orland Joint Unified",100,100,100,100,100,TRUE,0,0,23,12,75,188,1
+"743","Lake Elementary",100,100,100,100,100,TRUE,0,0,26,13,NA,20,1
+"448","Livingston Union",99,99,99,99,99,TRUE,1,0,38,17,68,292,3
+"441","Planada Elementary",98,98,100,100,98,TRUE,0,0,38,26,82,90,1
+"193","La Canada Unified",95,95,95,94,94,TRUE,5,0,6,2,NA,259,3
+"224","Ballard Elementary",100,100,100,100,100,TRUE,0,0,13,3,1,15,1
+"618","Roseland",98,98,99,99,98,TRUE,0,0,20,15,78,312,4
+"640","Alpine County Unified",83,83,83,83,83,TRUE,8,0,23,2,54,12,1
+"154","Temple City Unified",96,96,91,97,91,TRUE,1,1,18,9,29,339,3
+"752","Richfield Elementary",93,93,97,93,93,TRUE,3,0,22,15,46,29,1
+"239","Blochman Union Elementary",70,69,69,70,66,TRUE,27,0,11,5,NA,101,3
+"636","Howell Mountain Elementary",100,100,100,100,100,TRUE,0,0,8,4,45,10,1
+"210","Vista del Mar Union",93,93,93,93,93,TRUE,7,0,22,5,NA,15,1
+"200","Carpinteria Unified",84,84,84,84,84,TRUE,16,1,15,5,56,199,4
+"532","Piedmont City Unified",82,83,89,87,78,TRUE,6,0,3,0,NA,178,3
+"817","Dunsmuir Elementary",65,59,65,65,59,TRUE,35,0,39,15,NA,17,1
+"667","Rocklin Unified",85,87,86,89,83,TRUE,8,0,10,6,14,873,14
+"486","Ceres Unified",98,98,98,98,98,TRUE,2,0,26,18,71,1184,14
+"713","Mendocino Unified",67,63,63,67,57,TRUE,20,0,14,3,NA,30,1
+"327","Lone Pine Unified",100,100,100,100,100,TRUE,0,0,21,12,62,24,1
+"530","San Ramon Valley Unified",95,96,97,97,95,TRUE,2,0,4,3,3,2321,21
+"183","Rio Elementary",88,91,89,96,86,TRUE,1,1,20,12,66,626,6
+"663","Roseville City Elementary",94,95,94,97,93,TRUE,1,0,12,7,23,1196,14
+"325","King City Union",99,99,99,99,99,TRUE,1,0,23,15,85,345,3
+"693","Foresthill Union Elementary",86,86,86,91,86,TRUE,6,0,29,10,34,35,1
+"552","Curtis Creek Elementary",62,60,64,84,60,TRUE,7,0,15,7,45,45,1
+"77","Orange Unified",88,89,90,95,84,TRUE,2,0,15,6,NA,2503,27
+"632","Guerneville Elementary",97,94,94,97,90,TRUE,3,0,18,9,54,31,1
+"135","Colton Joint Unified",96,97,96,98,95,TRUE,1,0,27,15,76,1801,18
+"83","Magnolia Elementary",97,97,98,99,96,TRUE,1,0,29,14,75,1041,9
+"44","Oceanside Unified",91,92,91,92,90,TRUE,5,0,21,10,47,1991,17
+"407","Gilroy Unified",98,98,98,98,97,TRUE,1,1,16,9,NA,991,9
+"411","Bonny Doon Union Elementary",65,65,69,69,65,TRUE,27,0,12,5,NA,26,1
+"228","College Elementary",91,91,91,88,88,TRUE,9,0,10,2,9,43,2
+"450","Alum Rock Union Elementary",98,98,98,99,97,TRUE,0,0,24,14,73,1410,17
+"41","San Marcos Unified",93,92,92,94,92,TRUE,6,0,15,11,NA,1693,11
+"685","Pierce Joint Unified",99,99,99,100,99,TRUE,0,0,20,18,58,115,2
+"295","Earlimart Elementary",99,99,99,99,99,TRUE,0,1,72,47,80,267,1
+"710","Alta-Dutch Flat Union Elementary",77,69,62,85,62,TRUE,15,0,21,6,NA,13,1
+"784","Redding Elementary",77,76,75,87,71,TRUE,7,0,23,16,53,447,8
+"536","Jamestown Elementary",97,97,97,100,97,TRUE,0,0,31,18,69,35,1
+"791","North Cow Creek Elementary",70,70,70,83,70,TRUE,17,0,16,4,NA,23,1
+"778","Junction Elementary",85,85,85,85,85,TRUE,15,0,13,6,NA,26,1
+"7","Calexico Unified",99,99,97,99,96,TRUE,0,0,41,24,79,605,7
+"329","Lemoore Union Elementary",98,98,98,98,98,TRUE,2,0,23,13,59,396,4
+"572","John Swett Unified",98,98,99,99,97,TRUE,0,0,22,11,62,150,1
+"167","Monrovia Unified",91,91,90,93,89,TRUE,2,0,18,8,NA,492,5
+"145","Lompoc Unified",96,96,97,97,95,TRUE,2,0,24,13,56,918,10
+"619","Elk Grove Unified",95,96,96,97,94,TRUE,2,0,21,11,42,4237,40
+"71","Westminster",96,96,95,98,94,TRUE,2,0,25,14,58,1298,13
+"198","Snowline Joint Unified",85,86,84,90,83,TRUE,5,0,16,9,52,478,6
+"79","Savanna Elementary",89,90,90,98,88,TRUE,0,0,20,10,58,409,4
+"427","Union Elementary",92,92,91,94,87,TRUE,4,0,6,4,NA,540,6
+"90","Redondo Beach Unified",90,90,89,92,89,TRUE,7,1,8,4,NA,755,8
+"560","West Contra Costa Unified",97,97,97,98,97,TRUE,1,0,18,11,62,2765,37
+"254","Di Giorgio Elementary",95,100,95,100,89,TRUE,0,0,42,43,89,19,1
+"746","Capay Joint Union Elementary",95,95,95,95,95,TRUE,5,0,26,9,46,21,1
+"507","Hart-Ransom Union Elementary",92,92,91,92,91,TRUE,8,0,25,5,NA,144,2
+"554","Stockton Unified",97,97,97,99,96,TRUE,0,0,36,25,81,3487,47
+"674","Lake Tahoe Unified",83,83,82,85,80,TRUE,11,2,21,10,53,388,4
+"551","Larkspur-Corte Madera",70,77,71,87,62,TRUE,9,0,5,2,8,196,1
+"139","Mountain View Elementary",99,99,99,99,98,TRUE,0,0,37,23,NA,1235,13
+"433","Cambrian",95,95,96,96,95,TRUE,3,1,8,4,13,405,4
+"824","Modoc Joint Unified",89,89,89,89,89,TRUE,11,0,28,12,61,70,1
+"495","Paradise Elementary",100,100,100,100,100,TRUE,0,0,24,15,NA,15,1
+"73","Palo Verde Unified",80,80,79,97,78,TRUE,3,0,26,15,69,292,3
+"62","Huntington Beach City Elementary",86,88,87,89,85,TRUE,7,0,8,4,15,673,7
+"321","Sundale Union Elementary",94,96,94,94,94,TRUE,4,0,34,6,NA,90,1
+"12","La Mesa-Spring Valley",93,93,93,96,92,TRUE,3,0,19,8,NA,1540,17
+"771","Rio Dell Elementary",95,95,95,95,95,TRUE,5,0,25,14,NA,39,1
+"261","Panama-Buena Vista Union",98,98,98,98,97,TRUE,1,0,22,12,52,2349,18
+"381","Kings Canyon Joint Unified",99,99,99,99,98,TRUE,1,0,41,22,70,830,12
+"55","Murrieta Valley Unified",92,92,92,93,91,TRUE,6,1,12,6,NA,1513,11
+"134","Valle Lindo Elementary",100,100,100,100,100,TRUE,0,0,26,10,71,123,1
+"89","Corona-Norco Unified",96,96,96,97,95,TRUE,2,0,15,7,37,3912,31
+"342","Riverdale Joint Unified",93,94,95,99,93,TRUE,1,0,33,25,84,132,1
+"492","Hickman Community Charter",68,68,68,68,68,TRUE,32,0,26,18,16,102,2
+"523","Alameda Unified",93,93,92,93,91,TRUE,6,0,14,7,NA,772,11
+"344","Traver Joint Elementary",100,100,100,100,100,TRUE,0,0,51,29,NA,29,1
+"533","Moraga Elementary",97,97,97,96,95,TRUE,3,0,4,3,1,181,3
+"489","Hughson Unified",91,92,91,96,88,TRUE,2,0,27,15,54,161,1
+"615","Sebastopol Union Elementary",58,57,58,57,57,TRUE,34,0,13,6,NA,124,4
+"670","Esparto Unified",96,96,96,96,96,TRUE,4,0,15,6,60,80,1
+"69","Tustin Unified",93,94,93,97,91,TRUE,2,0,13,7,35,1691,18
+"266","Rosedale Union Elementary",92,92,92,92,92,TRUE,8,0,9,3,18,555,7
+"783","Hydesville Elementary",81,81,81,86,81,TRUE,5,0,16,7,21,21,1
+"13","Mountain Empire Unified",68,70,68,78,66,TRUE,20,0,30,14,44,281,6
+"519","Dublin Unified",95,95,96,96,95,TRUE,3,0,6,2,NA,868,6
+"273","Maple Elementary",87,87,87,92,88,TRUE,8,0,34,27,NA,40,1
+"419","Morgan Hill Unified",92,93,93,96,91,TRUE,2,0,13,7,34,738,9
+"191","Somis Union",87,87,87,87,74,TRUE,3,0,31,9,56,31,1
+"603","Vallecito Union",77,80,74,82,73,TRUE,15,0,5,6,35,74,2
+"637","West Side Union Elementary",96,96,96,96,96,TRUE,0,0,11,5,16,26,1
+"87","Centralia Elementary",95,96,95,98,92,TRUE,1,0,19,10,55,675,8
+"712","Colusa Unified",99,99,99,99,98,TRUE,0,0,21,11,NA,147,1
+"504","Empire Union Elementary",96,96,96,97,96,TRUE,2,0,27,15,NA,396,5
+"380","Kerman Unified",99,99,100,100,99,TRUE,0,0,36,24,79,383,3
+"463","Delhi Unified",100,100,99,100,99,TRUE,0,0,31,12,78,218,3
+"688","Plumas Lake Elementary",97,97,97,97,97,TRUE,2,0,16,5,25,167,2
+"209","Apple Valley Unified",92,92,92,93,90,TRUE,5,0,26,16,NA,1137,11
+"163","Hueneme Elementary",96,97,96,99,95,TRUE,0,0,25,12,66,1020,9
+"642","Calistoga Joint Unified",89,89,94,94,89,TRUE,4,0,11,5,64,72,1
+"311","Waukena Joint Union Elementary",96,96,96,96,96,TRUE,4,0,43,14,77,28,1
+"573","Oakley Union Elementary",94,95,94,95,94,TRUE,4,0,12,6,42,605,5
+"699","Franklin Elementary",96,96,94,98,91,TRUE,0,0,20,9,NA,47,1
+"386","Fresno Unified",93,93,94,95,92,TRUE,1,0,47,27,NA,6866,68
+"367","Pacific Union Elementary",95,95,96,95,95,TRUE,3,0,41,30,61,130,2
+"152","San Gabriel Unified",97,97,97,98,96,TRUE,1,0,23,8,NA,343,5
+"17","Dehesa Elementary",57,57,57,57,57,TRUE,43,0,11,0,NA,189,4
+"264","Rio Bravo-Greeley Union Elementary",96,96,96,96,96,TRUE,4,0,27,9,34,137,1
+"393","Firebaugh-Las Deltas Unified",97,97,97,100,97,TRUE,0,0,43,28,88,221,1
+"110","La Habra City Elementary",97,97,97,98,97,TRUE,2,0,23,11,69,651,4
+"482","Keyes Union",92,92,92,92,92,TRUE,8,0,30,23,50,131,2
+"165","Etiwanda Elementary",94,95,95,95,94,TRUE,4,0,10,3,26,1418,12
+"811","Fieldbrook Elementary",75,75,58,58,42,TRUE,25,0,21,4,28,12,1
+"278","South Fork Union",87,87,83,96,83,TRUE,4,0,41,24,NA,24,1
+"465","Woodside Elementary",98,98,98,98,98,TRUE,2,0,5,1,NA,65,1
+"485","Hillsborough City Elementary",93,94,94,97,93,TRUE,2,1,4,2,0,160,3
+"46","Warner Unified",53,53,47,88,24,TRUE,0,0,7,12,76,17,1
+"521","Castro Valley Unified",94,94,92,95,90,TRUE,2,1,11,5,NA,692,9
+"742","Laytonville Unified",67,60,70,70,53,TRUE,23,0,22,8,68,30,1
+"801","Freshwater Elementary",67,67,67,72,63,TRUE,23,0,21,5,17,40,1
+"383","Sanger Unified",96,96,96,97,95,TRUE,2,0,29,15,NA,963,15
+"335","Island Union Elementary",100,100,100,100,100,TRUE,0,0,29,10,NA,42,1
+"201","Montecito Union Elementary",71,71,71,71,71,TRUE,27,0,12,6,NA,51,1
+"97","Lawndale Elementary",92,92,91,97,89,TRUE,1,0,28,12,71,674,6
+"678","Kelseyville Unified",96,96,95,95,93,TRUE,3,1,29,12,71,134,2
+"545","Tracy Joint Unified",98,98,98,98,98,TRUE,1,0,14,8,45,1087,12
+"515","Riverbank Unified",96,97,97,97,94,TRUE,2,0,29,20,69,306,3
+"770","Scotia Union Elementary",86,86,91,91,86,TRUE,5,0,13,2,49,22,1
+"286","Shandon Joint Unified",89,93,89,89,86,TRUE,0,4,19,14,75,28,1
+"305","Tipton Elementary",99,99,99,99,99,TRUE,0,1,27,14,96,78,1
+"799","Cutten Elementary",88,88,98,98,88,TRUE,2,0,24,11,35,95,1
+"768","Johnstonville Elementary",72,78,78,89,72,TRUE,11,0,21,6,39,18,1
+"576","Linden Unified",95,95,94,96,94,TRUE,3,0,23,13,51,166,3
+"29","Westmorland Union Elementary",88,91,91,100,88,TRUE,0,0,32,21,88,43,1
+"80","Nuview Union",91,91,91,91,91,TRUE,7,2,25,13,NA,290,3
+"702","Williams Unified",99,99,99,99,99,TRUE,1,0,16,9,69,122,1
+"84","Anaheim City",99,99,99,99,98,TRUE,0,0,31,16,NA,2962,24
+"116","Lennox",98,98,98,100,97,TRUE,0,0,41,31,NA,630,5
+"601","Waugh Elementary",95,91,93,97,87,TRUE,2,0,6,0,11,129,2
+"74","Garden Grove Unified",97,97,97,99,96,TRUE,1,0,25,12,64,3361,44
+"194","Briggs Elementary",94,94,94,94,94,TRUE,6,0,28,16,NA,53,1
+"666","Placerville Union Elementary",81,84,82,95,76,TRUE,1,0,19,9,NA,170,2
+"269","Norris Elementary",94,94,94,93,93,TRUE,6,0,9,4,12,454,4
+"484","Sunol Glen Unified",92,92,92,92,92,TRUE,3,5,6,3,7,37,1
+"57","Coachella Valley Unified",99,99,99,100,99,TRUE,0,0,41,25,81,1595,14
+"661","Dry Creek Joint Elementary",89,89,88,89,87,TRUE,10,0,13,5,26,685,7
+"565","Soulsbyville Elementary",69,71,71,90,69,TRUE,7,0,13,5,40,58,1
+"574","Summerville Elementary",87,87,87,87,88,TRUE,13,0,15,12,40,56,1
+"503","Mammoth Unified",91,91,91,91,91,TRUE,9,0,12,5,42,105,1
+"240","Guadalupe Union Elementary",98,98,98,98,98,TRUE,2,0,24,17,64,173,1
+"70","Romoland Elementary",97,98,97,98,96,TRUE,2,0,24,10,57,399,4
+"302","Porterville Unified",97,98,97,99,96,TRUE,1,0,46,28,89,962,10
+"736","Sierra-Plumas Joint Unified",100,100,100,100,100,TRUE,0,0,18,7,NA,23,1
+"258","Greenfield Union",98,99,99,99,98,TRUE,1,0,37,21,78,1256,8
+"409","Big Pine Unified",91,91,91,91,91,TRUE,9,0,19,4,61,22,1
+"211","William S. Hart Union High",56,56,56,57,51,TRUE,12,0,10,6,NA,75,1
+"203","Lucerne Valley Unified",47,47,47,49,45,TRUE,51,0,22,10,NA,249,2
+"138","Bassett Unified",96,96,97,98,95,TRUE,0,0,27,13,84,360,4
+"644","Buckeye Union Elementary",86,86,86,90,85,TRUE,9,0,6,4,12,530,7
+"677","Black Oak Mine Unified",74,76,73,81,73,TRUE,12,2,9,4,NA,97,3
+"35","Encinitas Union Elementary",85,84,83,88,82,TRUE,11,0,14,8,NA,742,9
+"546","Orinda Union Elementary",87,87,87,94,84,TRUE,3,0,4,1,NA,262,4
+"170","Alta Loma Elementary",95,95,95,95,94,TRUE,4,0,12,4,NA,607,8
+"571","Dixie Elementary",95,95,95,94,94,TRUE,5,0,7,2,11,249,3
+"67","Ocean View",93,93,93,95,92,TRUE,4,1,15,7,44,1405,14
+"365","Chualar Union",92,92,92,92,90,TRUE,0,0,19,10,83,48,1
+"412","Scotts Valley Unified",96,97,96,96,95,TRUE,3,0,5,2,NA,186,2
+"629","Mark West Union Elementary",92,92,90,92,90,TRUE,1,3,27,10,28,223,3
+"591","Wilmar Union Elementary",55,64,52,75,48,TRUE,7,0,13,3,22,44,1
+"566","Ross Valley Elementary",84,84,84,84,83,TRUE,15,0,8,4,8,272,4
+"470","Ballico-Cressey Elementary",93,93,91,93,91,TRUE,0,0,23,10,61,44,1
+"271","Beardsley Elementary",91,91,90,92,89,TRUE,2,0,36,27,NA,259,3
+"392","Aromas/San Juan Unified",93,93,93,96,93,TRUE,1,0,10,9,NA,82,2
+"309","Woodville Union Elementary",100,100,100,100,100,TRUE,0,0,63,38,NA,55,1
+"549","Valley Home Joint Elementary",95,95,95,95,95,TRUE,5,0,25,8,43,21,1
+"680","Ackerman Charter",92,89,94,97,87,TRUE,1,0,13,10,NA,71,1
+"775","Pacheco Union Elementary",88,88,88,86,86,TRUE,6,3,18,8,49,77,1
+"18","Cajon Valley Union",94,95,96,96,92,TRUE,2,0,29,15,58,1880,20
+"339","Mission Union Elementary",89,94,100,100,89,TRUE,0,0,23,10,9,18,1
+"750","Corning Union Elementary",97,97,97,97,97,TRUE,3,0,33,18,NA,282,4
+"747","Chico Unified",87,87,86,89,86,TRUE,8,0,21,12,NA,1092,18
+"543","Reed Union Elementary",91,90,90,89,85,TRUE,6,1,13,4,2,175,1
+"714","Live Oak Unified",97,97,96,97,95,TRUE,3,0,28,20,68,152,1
+"236","Cuyama Joint Unified",96,96,96,96,96,TRUE,4,0,27,17,65,23,1
+"602","Sonoma Valley Unified",95,95,95,96,94,TRUE,3,0,14,8,NA,418,7
+"726","Camptonville Elementary",55,55,55,55,55,TRUE,45,0,15,10,NA,20,1
+"751","Paradise Unified",85,84,83,89,79,TRUE,8,0,23,10,56,376,6
+"598","Two Rock Union",83,87,87,96,83,TRUE,0,0,12,4,32,23,1
+"156","Fontana Unified",98,99,99,99,98,TRUE,1,0,27,17,75,3155,29
+"425","La Honda-Pescadero Unified",89,86,97,95,86,TRUE,3,0,7,6,NA,37,2
+"304","San Ardo Union Elementary",100,100,100,100,100,TRUE,0,0,21,6,NA,13,1
+"491","Pacifica",93,94,94,96,93,TRUE,3,0,7,3,NA,335,5
+"776","Black Butte Union Elementary",76,76,76,90,76,TRUE,0,0,57,8,NA,21,1
+"818","Mt. Shasta Union Elementary",80,80,80,80,80,TRUE,9,0,27,9,28,55,1
+"225","Adelanto Elementary",93,94,92,95,90,TRUE,1,0,34,23,NA,1006,11
+"364","Raisin City Elementary",98,95,95,98,91,TRUE,0,0,48,26,88,57,1
+"611","Vacaville Unified",96,97,97,97,96,TRUE,2,0,14,8,38,938,10
+"387","North Monterey County Unified",97,98,98,99,97,TRUE,1,0,24,10,67,375,4
+"174","Claremont Unified",90,90,90,90,90,TRUE,10,0,14,6,33,428,7
+"424","Le Grand Union Elementary",97,97,97,97,97,TRUE,3,0,32,18,NA,39,1
+"773","Happy Valley Union Elementary",86,94,94,94,86,TRUE,6,0,36,13,NA,35,1
+"753","Fort Sage Unified",69,77,77,92,69,TRUE,0,0,11,5,75,13,1
+"395","North County Joint Union Elementary",89,89,89,97,89,TRUE,0,1,17,12,NA,74,1
+"599","Travis Unified",95,96,95,98,93,TRUE,1,0,10,4,19,381,5
+"137","Yucaipa-Calimesa Joint Unified",92,91,92,94,91,TRUE,6,0,17,8,43,783,8
+"151","Baldwin Park Unified",99,99,99,99,98,TRUE,1,0,29,16,79,1172,12
+"370","Parlier Unified",100,100,99,100,99,TRUE,0,0,45,29,65,328,4
+"372","Washington Colony Elementary",98,98,98,100,98,TRUE,0,0,44,16,74,58,1
+"360","Clay Joint Elementary",96,96,96,96,96,TRUE,4,0,34,20,17,24,1
+"687","Placer Hills Union Elementary",96,96,96,96,96,TRUE,4,0,7,5,29,94,1
+"187","Mesa Union Elementary",55,58,58,66,53,TRUE,33,0,15,6,NA,125,2
+"468","Menlo Park City Elementary",92,92,92,94,90,TRUE,4,0,4,3,NA,354,3
+"340","Soledad Unified",100,100,100,100,100,TRUE,0,0,29,17,NA,416,5
+"721","Potter Valley Community Unified",100,100,100,100,94,TRUE,0,0,23,11,NA,17,1
+"242","Muroc Joint Unified",97,97,97,97,97,TRUE,3,0,30,15,22,185,2
+"410","Mountain Elementary",93,93,93,93,93,TRUE,7,0,11,6,5,15,1
+"477","San Carlos Elementary",90,90,92,92,86,TRUE,6,0,4,2,5,414,5
+"237","El Tejon Unified",76,78,76,85,72,TRUE,11,0,22,4,69,46,1
+"144","Alhambra Unified",96,97,97,98,94,TRUE,2,0,27,11,51,931,13
+"777","Westwood Unified",76,71,71,76,71,TRUE,0,0,26,24,59,17,1
+"568","Pittsburg Unified",98,98,98,99,98,TRUE,0,0,27,15,74,980,8
+"730","Oroville City Elementary",95,96,95,98,93,TRUE,1,0,28,9,NA,332,5
+"355","Caruthers Unified",93,94,94,99,91,TRUE,0,0,43,21,85,116,1
+"123","Chino Valley Unified",96,96,96,97,96,TRUE,3,0,14,6,NA,1942,23
+"100","Manhattan Beach Unified",90,90,92,91,89,TRUE,6,2,5,2,NA,466,5
+"378","Salinas City Elementary",93,94,94,98,92,TRUE,0,0,33,16,NA,1406,13
+"531","Manteca Unified",99,99,99,99,99,TRUE,1,0,16,8,54,1509,20
+"263","Edison Elementary",95,95,95,95,94,TRUE,0,1,30,16,77,110,1
+"557","Ross Elementary",96,96,96,92,92,TRUE,4,0,8,6,0,49,1
+"341","Kings River-Hardwick Union Elementary",99,99,99,99,99,TRUE,1,0,17,2,NA,98,1
+"114","Little Lake City Elementary",95,95,95,96,93,TRUE,2,0,17,6,50,493,7
+"472","Redwood City Elementary",85,88,84,96,75,TRUE,1,0,18,8,47,1062,14
+"290","Pleasant Valley Joint Union Elementary",92,92,92,92,92,TRUE,8,0,19,7,NA,12,1
+"215","Mupu Elementary",79,79,79,79,79,TRUE,14,0,12,5,43,14,1
+"748","Kirkwood Elementary",93,93,93,93,93,TRUE,7,0,31,14,41,14,1
+"85","Torrance Unified",95,95,95,96,92,TRUE,2,0,10,5,19,1718,17
+"662","Middletown Unified",83,84,83,85,83,TRUE,14,0,21,10,43,142,4
+"617","Wright Elementary",98,98,98,99,98,TRUE,1,0,14,12,55,230,3
+"388","Lagunita Elementary",100,100,100,100,100,TRUE,0,0,14,4,NA,10,1
+"684","Konocti Unified",87,88,87,96,84,TRUE,1,0,37,25,83,309,4
+"120","East Whittier City Elementary",94,95,94,97,92,TRUE,2,0,15,6,45,1050,10
+"475","Ravenswood City Elementary",99,99,99,99,99,TRUE,0,0,23,16,88,524,7
+"153","Charter Oak Unified",96,96,91,95,91,TRUE,2,0,14,6,51,368,5
+"555","Kentfield Elementary",90,92,92,92,83,TRUE,3,0,5,2,3,154,1
+"315","Tulare City",98,98,98,98,98,TRUE,1,0,34,17,70,1160,11
+"274","Richland Union Elementary",99,99,99,99,99,TRUE,0,0,34,17,81,499,3
+"675","Newcastle Elementary",78,77,78,84,77,TRUE,16,0,18,7,8,128,3
+"822","Scott Valley Unified",84,89,80,89,80,TRUE,11,0,26,11,59,44,2
+"56","Laguna Beach Unified",81,79,79,79,73,TRUE,15,0,9,4,8,146,2
+"720","Marysville Joint Unified",93,95,93,97,91,TRUE,2,0,30,16,NA,863,15
+"36","San Pasqual Union Elementary",87,87,87,90,88,TRUE,8,0,9,6,NA,48,1
