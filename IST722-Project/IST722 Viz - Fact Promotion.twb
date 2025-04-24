@@ -1,0 +1,2890 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1211.0901                               -->
+<workbook original-version='18.1' source-build='2024.3.2 (20243.24.1211.0901)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelRelationshipPerfOptions />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='PUBLIC' inline='true' name='federated.0iz6ylr1fookaz11jzllw0dayfyy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='acgkiud-yob97136.snowflakecomputing.com' name='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb'>
+            <connection authentication='Username Password' class='snowflake' dbname='JMA' max-varchar-size='' odbc-connect-string-extras='' one-time-sql='' schema='PUBLIC' server='acgkiud-yob97136.snowflakecomputing.com' service='ACCOUNTADMIN' username='dbgold' warehouse='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='SALES' table='[JMA].[PUBLIC].[SALES]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='GAMES' table='[JMA].[PUBLIC].[GAMES]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='TEAMS' table='[JMA].[PUBLIC].[TEAMS]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='PRODUCTS' table='[JMA].[PUBLIC].[PRODUCTS]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='CONCESSIONS' table='[JMA].[PUBLIC].[CONCESSIONS]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='SUPPLIERS' table='[JMA].[PUBLIC].[SUPPLIERS]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='DAILY_INVENTORY_LEVELS' table='[JMA].[PUBLIC].[DAILY_INVENTORY_LEVELS]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='MERCHANDISE' table='[JMA].[PUBLIC].[MERCHANDISE]' type='table' />
+          <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='SUPPLIERS1' table='[JMA].[PUBLIC].[SUPPLIERS]' type='table' />
+        </relation>
+        <cols>
+          <map key='[AWAY_TEAM]' value='[GAMES].[AWAY_TEAM]' />
+          <map key='[AWAY_TEAM_ID]' value='[GAMES].[AWAY_TEAM_ID]' />
+          <map key='[AWAY_TICKETS_SOLD]' value='[GAMES].[AWAY_TICKETS_SOLD]' />
+          <map key='[AWAY_TICKET_ALLOCATION]' value='[GAMES].[AWAY_TICKET_ALLOCATION]' />
+          <map key='[CATEGORY (CONCESSIONS)]' value='[CONCESSIONS].[CATEGORY]' />
+          <map key='[CATEGORY (SUPPLIERS)]' value='[SUPPLIERS].[CATEGORY]' />
+          <map key='[CATEGORY (SUPPLIERS1)]' value='[SUPPLIERS1].[CATEGORY]' />
+          <map key='[CATEGORY]' value='[MERCHANDISE].[CATEGORY]' />
+          <map key='[CITY (SUPPLIERS1)]' value='[SUPPLIERS1].[CITY]' />
+          <map key='[CITY]' value='[SUPPLIERS].[CITY]' />
+          <map key='[CONFERENCE]' value='[TEAMS].[CONFERENCE]' />
+          <map key='[CONF_GAME]' value='[GAMES].[CONF_GAME]' />
+          <map key='[COUNTRY (SUPPLIERS1)]' value='[SUPPLIERS1].[COUNTRY]' />
+          <map key='[COUNTRY]' value='[SUPPLIERS].[COUNTRY]' />
+          <map key='[DATE (DAILY_INVENTORY_LEVELS)]' value='[DAILY_INVENTORY_LEVELS].[DATE]' />
+          <map key='[DATE]' value='[GAMES].[DATE]' />
+          <map key='[DESCRIPTION (CONCESSIONS)]' value='[CONCESSIONS].[DESCRIPTION]' />
+          <map key='[DESCRIPTION]' value='[MERCHANDISE].[DESCRIPTION]' />
+          <map key='[EMAIL (SUPPLIERS1)]' value='[SUPPLIERS1].[EMAIL]' />
+          <map key='[EMAIL]' value='[SUPPLIERS].[EMAIL]' />
+          <map key='[FAX (SUPPLIERS1)]' value='[SUPPLIERS1].[FAX]' />
+          <map key='[FAX]' value='[SUPPLIERS].[FAX]' />
+          <map key='[GAME_ID]' value='[SALES].[GAME_ID]' />
+          <map key='[GATES_OPEN]' value='[GAMES].[GATES_OPEN]' />
+          <map key='[HOME_TEAM]' value='[GAMES].[HOME_TEAM]' />
+          <map key='[ID (CONCESSIONS)]' value='[CONCESSIONS].[ID]' />
+          <map key='[ID (GAMES)]' value='[GAMES].[ID]' />
+          <map key='[ID (MERCHANDISE)]' value='[MERCHANDISE].[ID]' />
+          <map key='[ID (PRODUCTS)]' value='[PRODUCTS].[ID]' />
+          <map key='[ID (SUPPLIERS)]' value='[SUPPLIERS].[ID]' />
+          <map key='[ID (SUPPLIERS1)]' value='[SUPPLIERS1].[ID]' />
+          <map key='[ID (TEAMS)]' value='[TEAMS].[ID]' />
+          <map key='[ID]' value='[SALES].[ID]' />
+          <map key='[ITEM (CONCESSIONS)]' value='[CONCESSIONS].[ITEM]' />
+          <map key='[ITEM]' value='[MERCHANDISE].[ITEM]' />
+          <map key='[ITEM_NAME]' value='[SALES].[ITEM_NAME]' />
+          <map key='[ITEM_TYPE]' value='[SALES].[ITEM_TYPE]' />
+          <map key='[LOCATION (SUPPLIERS)]' value='[SUPPLIERS].[LOCATION]' />
+          <map key='[LOCATION (SUPPLIERS1)]' value='[SUPPLIERS1].[LOCATION]' />
+          <map key='[LOCATION]' value='[TEAMS].[LOCATION]' />
+          <map key='[MASCOT]' value='[TEAMS].[MASCOT]' />
+          <map key='[NAME (SUPPLIERS)]' value='[SUPPLIERS].[NAME]' />
+          <map key='[NAME (SUPPLIERS1)]' value='[SUPPLIERS1].[NAME]' />
+          <map key='[NAME]' value='[TEAMS].[NAME]' />
+          <map key='[PHONE_NUMBER (SUPPLIERS1)]' value='[SUPPLIERS1].[PHONE_NUMBER]' />
+          <map key='[PHONE_NUMBER]' value='[SUPPLIERS].[PHONE_NUMBER]' />
+          <map key='[PRODUCT]' value='[DAILY_INVENTORY_LEVELS].[PRODUCT]' />
+          <map key='[PRODUCT_ID]' value='[DAILY_INVENTORY_LEVELS].[PRODUCT_ID]' />
+          <map key='[PRODUCT_NAME]' value='[PRODUCTS].[PRODUCT_NAME]' />
+          <map key='[PRODUCT_TYPE]' value='[DAILY_INVENTORY_LEVELS].[PRODUCT_TYPE]' />
+          <map key='[QUANTITY_SOLD]' value='[SALES].[QUANTITY_SOLD]' />
+          <map key='[REORDER_LEVEL (CONCESSIONS)]' value='[CONCESSIONS].[REORDER_LEVEL]' />
+          <map key='[REORDER_LEVEL]' value='[MERCHANDISE].[REORDER_LEVEL]' />
+          <map key='[SALE_TIME]' value='[SALES].[SALE_TIME]' />
+          <map key='[SPORT]' value='[GAMES].[SPORT]' />
+          <map key='[START_TIME]' value='[GAMES].[START_TIME]' />
+          <map key='[STREET_ADDRESS (SUPPLIERS1)]' value='[SUPPLIERS1].[STREET_ADDRESS]' />
+          <map key='[STREET_ADDRESS]' value='[SUPPLIERS].[STREET_ADDRESS]' />
+          <map key='[SUPPLIER]' value='[DAILY_INVENTORY_LEVELS].[SUPPLIER]' />
+          <map key='[SUPPLIER_ID (CONCESSIONS)]' value='[CONCESSIONS].[SUPPLIER_ID]' />
+          <map key='[SUPPLIER_ID (DAILY_INVENTORY_LEVELS)]' value='[DAILY_INVENTORY_LEVELS].[SUPPLIER_ID]' />
+          <map key='[SUPPLIER_ID (MERCHANDISE)]' value='[MERCHANDISE].[SUPPLIER_ID]' />
+          <map key='[SUPPLIER_ID]' value='[SALES].[SUPPLIER_ID]' />
+          <map key='[SUPPLIER_NAME]' value='[SALES].[SUPPLIER_NAME]' />
+          <map key='[UNITS_IN_STOCK (CONCESSIONS)]' value='[CONCESSIONS].[UNITS_IN_STOCK]' />
+          <map key='[UNITS_IN_STOCK (DAILY_INVENTORY_LEVELS)]' value='[DAILY_INVENTORY_LEVELS].[UNITS_IN_STOCK]' />
+          <map key='[UNITS_IN_STOCK]' value='[MERCHANDISE].[UNITS_IN_STOCK]' />
+          <map key='[UNITS_ON_ORDER (CONCESSIONS)]' value='[CONCESSIONS].[UNITS_ON_ORDER]' />
+          <map key='[UNITS_ON_ORDER (DAILY_INVENTORY_LEVELS)]' value='[DAILY_INVENTORY_LEVELS].[UNITS_ON_ORDER]' />
+          <map key='[UNITS_ON_ORDER]' value='[MERCHANDISE].[UNITS_ON_ORDER]' />
+          <map key='[UNIT_PRICE (CONCESSIONS)]' value='[CONCESSIONS].[UNIT_PRICE]' />
+          <map key='[UNIT_PRICE (MERCHANDISE)]' value='[MERCHANDISE].[UNIT_PRICE]' />
+          <map key='[UNIT_PRICE]' value='[SALES].[UNIT_PRICE]' />
+          <map key='[ZIP_CODE (SUPPLIERS1)]' value='[SUPPLIERS1].[ZIP_CODE]' />
+          <map key='[ZIP_CODE]' value='[SUPPLIERS].[ZIP_CODE]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GAME_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[GAME_ID]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>GAME_ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ITEM_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ITEM_TYPE]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>ITEM_TYPE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ITEM_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ITEM_NAME]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>ITEM_NAME</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY_SOLD</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[QUANTITY_SOLD]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>QUANTITY_SOLD</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_PRICE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNIT_PRICE]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>UNIT_PRICE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SALE_TIME</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[SALE_TIME]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>SALE_TIME</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <precision>9</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIME&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIME&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPLIER_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SUPPLIER_ID]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>SUPPLIER_ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPLIER_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPLIER_NAME]</local-name>
+            <parent-name>[SALES]</parent-name>
+            <remote-alias>SUPPLIER_NAME</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (GAMES)]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HOME_TEAM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HOME_TEAM]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>HOME_TEAM</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWAY_TEAM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AWAY_TEAM]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>AWAY_TEAM</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWAY_TEAM_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AWAY_TEAM_ID]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>AWAY_TEAM_ID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DATE]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>DATE</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPORT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPORT]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>SPORT</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GATES_OPEN</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[GATES_OPEN]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>GATES_OPEN</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <precision>9</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIME&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIME&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>START_TIME</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[START_TIME]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>START_TIME</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <precision>9</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIME&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIME&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONF_GAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CONF_GAME]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>CONF_GAME</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>3</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWAY_TICKET_ALLOCATION</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AWAY_TICKET_ALLOCATION]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>AWAY_TICKET_ALLOCATION</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AWAY_TICKETS_SOLD</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AWAY_TICKETS_SOLD]</local-name>
+            <parent-name>[GAMES]</parent-name>
+            <remote-alias>AWAY_TICKETS_SOLD</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (TEAMS)]</local-name>
+            <parent-name>[TEAMS]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[TEAMS]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MASCOT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MASCOT]</local-name>
+            <parent-name>[TEAMS]</parent-name>
+            <remote-alias>MASCOT</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOCATION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOCATION]</local-name>
+            <parent-name>[TEAMS]</parent-name>
+            <remote-alias>LOCATION</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONFERENCE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CONFERENCE]</local-name>
+            <parent-name>[TEAMS]</parent-name>
+            <remote-alias>CONFERENCE</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (PRODUCTS)]</local-name>
+            <parent-name>[PRODUCTS]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRODUCT_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRODUCT_NAME]</local-name>
+            <parent-name>[PRODUCTS]</parent-name>
+            <remote-alias>PRODUCT_NAME</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ITEM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ITEM (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>ITEM</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>CATEGORY</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_PRICE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNIT_PRICE (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>UNIT_PRICE</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DESCRIPTION (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>DESCRIPTION</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16777216</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPLIER_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SUPPLIER_ID (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>SUPPLIER_ID</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REORDER_LEVEL</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[REORDER_LEVEL (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>REORDER_LEVEL</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITS_IN_STOCK</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNITS_IN_STOCK (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>UNITS_IN_STOCK</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITS_ON_ORDER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNITS_ON_ORDER (CONCESSIONS)]</local-name>
+            <parent-name>[CONCESSIONS]</parent-name>
+            <remote-alias>UNITS_ON_ORDER</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (SUPPLIERS)]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME (SUPPLIERS)]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOCATION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOCATION (SUPPLIERS)]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>LOCATION</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PHONE_NUMBER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PHONE_NUMBER]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>PHONE_NUMBER</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMAIL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EMAIL]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>EMAIL</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY (SUPPLIERS)]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>CATEGORY</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STREET_ADDRESS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STREET_ADDRESS]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>STREET_ADDRESS</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CITY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CITY]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>CITY</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTRY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUNTRY]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>COUNTRY</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZIP_CODE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ZIP_CODE]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>ZIP_CODE</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FAX</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FAX]</local-name>
+            <parent-name>[SUPPLIERS]</parent-name>
+            <remote-alias>FAX</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRODUCT_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[PRODUCT_ID]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>PRODUCT_ID</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRODUCT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRODUCT]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>PRODUCT</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRODUCT_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRODUCT_TYPE]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>PRODUCT_TYPE</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPLIER_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SUPPLIER_ID (DAILY_INVENTORY_LEVELS)]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>SUPPLIER_ID</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPLIER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPLIER]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>SUPPLIER</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DATE (DAILY_INVENTORY_LEVELS)]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>DATE</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITS_IN_STOCK</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNITS_IN_STOCK (DAILY_INVENTORY_LEVELS)]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>UNITS_IN_STOCK</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITS_ON_ORDER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNITS_ON_ORDER (DAILY_INVENTORY_LEVELS)]</local-name>
+            <parent-name>[DAILY_INVENTORY_LEVELS]</parent-name>
+            <remote-alias>UNITS_ON_ORDER</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (MERCHANDISE)]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ITEM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ITEM]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>ITEM</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>CATEGORY</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_PRICE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNIT_PRICE (MERCHANDISE)]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>UNIT_PRICE</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DESCRIPTION]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>DESCRIPTION</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16777216</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPLIER_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SUPPLIER_ID (MERCHANDISE)]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>SUPPLIER_ID</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REORDER_LEVEL</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[REORDER_LEVEL]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>REORDER_LEVEL</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITS_IN_STOCK</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNITS_IN_STOCK]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>UNITS_IN_STOCK</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNITS_ON_ORDER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNITS_ON_ORDER]</local-name>
+            <parent-name>[MERCHANDISE]</parent-name>
+            <remote-alias>UNITS_ON_ORDER</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOCATION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOCATION (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>LOCATION</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PHONE_NUMBER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PHONE_NUMBER (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>PHONE_NUMBER</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMAIL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EMAIL (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>EMAIL</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>CATEGORY</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STREET_ADDRESS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STREET_ADDRESS (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>STREET_ADDRESS</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CITY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CITY (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>CITY</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTRY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUNTRY (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>COUNTRY</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZIP_CODE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ZIP_CODE (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>ZIP_CODE</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FAX</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FAX (SUPPLIERS1)]</local-name>
+            <parent-name>[SUPPLIERS1]</parent-name>
+            <remote-alias>FAX</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>20</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Away Team' datatype='string' name='[AWAY_TEAM]' role='dimension' type='nominal' />
+      <column caption='Away Team Id' datatype='integer' name='[AWAY_TEAM_ID]' role='dimension' type='ordinal' />
+      <column caption='Away Tickets Sold' datatype='integer' name='[AWAY_TICKETS_SOLD]' role='measure' type='quantitative' />
+      <column caption='Away Ticket Allocation' datatype='integer' name='[AWAY_TICKET_ALLOCATION]' role='measure' type='quantitative' />
+      <column caption='Category (Concessions)' datatype='string' name='[CATEGORY (CONCESSIONS)]' role='dimension' type='nominal' />
+      <column caption='Category (Suppliers)' datatype='string' name='[CATEGORY (SUPPLIERS)]' role='dimension' type='nominal' />
+      <column caption='Category (Suppliers1)' datatype='string' name='[CATEGORY (SUPPLIERS1)]' role='dimension' type='nominal' />
+      <column caption='Category' datatype='string' name='[CATEGORY]' role='dimension' type='nominal' />
+      <column caption='City (Suppliers1)' datatype='string' name='[CITY (SUPPLIERS1)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='City' datatype='string' name='[CITY]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Conference' datatype='string' name='[CONFERENCE]' role='dimension' type='nominal' />
+      <column caption='Conf Game' datatype='string' name='[CONF_GAME]' role='dimension' type='nominal' />
+      <column caption='Country (Suppliers1)' datatype='string' name='[COUNTRY (SUPPLIERS1)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country' datatype='string' name='[COUNTRY]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date (Daily Inventory Levels)' datatype='date' name='[DATE (DAILY_INVENTORY_LEVELS)]' role='dimension' type='ordinal' />
+      <column caption='Date' datatype='date' name='[DATE]' role='dimension' type='ordinal' />
+      <column caption='Description (Concessions)' datatype='string' name='[DESCRIPTION (CONCESSIONS)]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[DESCRIPTION]' role='dimension' type='nominal' />
+      <column caption='Email (Suppliers1)' datatype='string' name='[EMAIL (SUPPLIERS1)]' role='dimension' type='nominal' />
+      <column caption='Email' datatype='string' name='[EMAIL]' role='dimension' type='nominal' />
+      <column caption='Fax (Suppliers1)' datatype='string' name='[FAX (SUPPLIERS1)]' role='dimension' type='nominal' />
+      <column caption='Game Id' datatype='integer' name='[GAME_ID]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='Gates Open' datatype='datetime' name='[GATES_OPEN]' role='dimension' type='ordinal' />
+      <column caption='Home Team' datatype='string' name='[HOME_TEAM]' role='dimension' type='nominal' />
+      <column caption='Id (Concessions)' datatype='integer' name='[ID (CONCESSIONS)]' role='dimension' type='ordinal' />
+      <column caption='Id (Games)' datatype='integer' name='[ID (GAMES)]' role='dimension' type='ordinal' />
+      <column caption='Id (Merchandise)' datatype='integer' name='[ID (MERCHANDISE)]' role='dimension' type='ordinal' />
+      <column caption='Id (Products)' datatype='integer' name='[ID (PRODUCTS)]' role='dimension' type='ordinal' />
+      <column caption='Id (Suppliers)' datatype='integer' name='[ID (SUPPLIERS)]' role='dimension' type='ordinal' />
+      <column caption='Id (Suppliers1)' datatype='integer' name='[ID (SUPPLIERS1)]' role='dimension' type='ordinal' />
+      <column caption='Id (Teams)' datatype='integer' name='[ID (TEAMS)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column caption='Item (Concessions)' datatype='string' name='[ITEM (CONCESSIONS)]' role='dimension' type='nominal' />
+      <column caption='Item' datatype='string' name='[ITEM]' role='dimension' type='nominal' />
+      <column caption='Item Name' datatype='string' name='[ITEM_NAME]' role='dimension' type='nominal' />
+      <column caption='Item Type' datatype='string' name='[ITEM_TYPE]' role='dimension' type='nominal' />
+      <column caption='Location (Suppliers)' datatype='string' name='[LOCATION (SUPPLIERS)]' role='dimension' type='nominal' />
+      <column caption='Location (Suppliers1)' datatype='string' name='[LOCATION (SUPPLIERS1)]' role='dimension' type='nominal' />
+      <column caption='Location' datatype='string' name='[LOCATION]' role='dimension' type='nominal' />
+      <column caption='Mascot' datatype='string' name='[MASCOT]' role='dimension' type='nominal' />
+      <column caption='Name (Suppliers)' datatype='string' name='[NAME (SUPPLIERS)]' role='dimension' type='nominal' />
+      <column caption='Name (Suppliers1)' datatype='string' name='[NAME (SUPPLIERS1)]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='Phone Number (Suppliers1)' datatype='string' name='[PHONE_NUMBER (SUPPLIERS1)]' role='dimension' type='nominal' />
+      <column caption='Phone Number' datatype='string' name='[PHONE_NUMBER]' role='dimension' type='nominal' />
+      <column caption='Product' datatype='string' name='[PRODUCT]' role='dimension' type='nominal' />
+      <column caption='Product Id' datatype='integer' name='[PRODUCT_ID]' role='dimension' type='ordinal' />
+      <column caption='Product Name' datatype='string' name='[PRODUCT_NAME]' role='dimension' type='nominal' />
+      <column caption='Product Type' datatype='string' name='[PRODUCT_TYPE]' role='dimension' type='nominal' />
+      <column caption='Quantity Sold' datatype='integer' name='[QUANTITY_SOLD]' role='measure' type='quantitative' />
+      <column caption='Reorder Level (Concessions)' datatype='integer' name='[REORDER_LEVEL (CONCESSIONS)]' role='measure' type='quantitative' />
+      <column caption='Reorder Level' datatype='integer' name='[REORDER_LEVEL]' role='measure' type='quantitative' />
+      <column aggregation='Hour' caption='Sale Time' datatype='datetime' name='[SALE_TIME]' role='dimension' type='ordinal' />
+      <column caption='Sport' datatype='string' name='[SPORT]' role='dimension' type='nominal' />
+      <column aggregation='Hour' caption='Start Time' datatype='datetime' name='[START_TIME]' role='dimension' type='ordinal' />
+      <column caption='Street Address (Suppliers1)' datatype='string' name='[STREET_ADDRESS (SUPPLIERS1)]' role='dimension' type='nominal' />
+      <column caption='Street Address' datatype='string' name='[STREET_ADDRESS]' role='dimension' type='nominal' />
+      <column caption='Supplier' datatype='string' name='[SUPPLIER]' role='dimension' type='nominal' />
+      <column caption='Supplier Id (Concessions)' datatype='integer' name='[SUPPLIER_ID (CONCESSIONS)]' role='dimension' type='ordinal' />
+      <column caption='Supplier Id (Daily Inventory Levels)' datatype='integer' name='[SUPPLIER_ID (DAILY_INVENTORY_LEVELS)]' role='dimension' type='ordinal' />
+      <column caption='Supplier Id (Merchandise)' datatype='integer' name='[SUPPLIER_ID (MERCHANDISE)]' role='dimension' type='ordinal' />
+      <column caption='Supplier Id' datatype='integer' name='[SUPPLIER_ID]' role='dimension' type='ordinal' />
+      <column caption='Supplier Name' datatype='string' name='[SUPPLIER_NAME]' role='dimension' type='nominal' />
+      <column caption='Units In Stock (Concessions)' datatype='integer' name='[UNITS_IN_STOCK (CONCESSIONS)]' role='measure' type='quantitative' />
+      <column caption='Units In Stock (Daily Inventory Levels)' datatype='integer' name='[UNITS_IN_STOCK (DAILY_INVENTORY_LEVELS)]' role='measure' type='quantitative' />
+      <column caption='Units In Stock' datatype='integer' name='[UNITS_IN_STOCK]' role='measure' type='quantitative' />
+      <column caption='Units On Order (Concessions)' datatype='integer' name='[UNITS_ON_ORDER (CONCESSIONS)]' role='measure' type='quantitative' />
+      <column caption='Units On Order (Daily Inventory Levels)' datatype='integer' name='[UNITS_ON_ORDER (DAILY_INVENTORY_LEVELS)]' role='measure' type='quantitative' />
+      <column caption='Units On Order' datatype='integer' name='[UNITS_ON_ORDER]' role='measure' type='quantitative' />
+      <column caption='Unit Price (Concessions)' datatype='real' name='[UNIT_PRICE (CONCESSIONS)]' role='measure' type='quantitative' />
+      <column caption='Unit Price (Merchandise)' datatype='real' name='[UNIT_PRICE (MERCHANDISE)]' role='measure' type='quantitative' />
+      <column caption='Unit Price' datatype='real' name='[UNIT_PRICE]' role='measure' type='quantitative' />
+      <column caption='Zip Code (Suppliers1)' datatype='string' name='[ZIP_CODE (SUPPLIERS1)]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='Zip Code' datatype='string' name='[ZIP_CODE]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='CONCESSIONS' datatype='table' name='[__tableau_internal_object_id__].[CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149]' role='measure' type='quantitative' />
+      <column caption='DAILY_INVENTORY_LEVELS' datatype='table' name='[__tableau_internal_object_id__].[DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59]' role='measure' type='quantitative' />
+      <column caption='GAMES' datatype='table' name='[__tableau_internal_object_id__].[GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B]' role='measure' type='quantitative' />
+      <column caption='MERCHANDISE' datatype='table' name='[__tableau_internal_object_id__].[MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE]' role='measure' type='quantitative' />
+      <column caption='PRODUCTS' datatype='table' name='[__tableau_internal_object_id__].[PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5]' role='measure' type='quantitative' />
+      <column caption='SALES' datatype='table' name='[__tableau_internal_object_id__].[SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024]' role='measure' type='quantitative' />
+      <column caption='SUPPLIERS' datatype='table' name='[__tableau_internal_object_id__].[SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741]' role='measure' type='quantitative' />
+      <column caption='SUPPLIERS1' datatype='table' name='[__tableau_internal_object_id__].[SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596]' role='measure' type='quantitative' />
+      <column caption='TEAMS' datatype='table' name='[__tableau_internal_object_id__].[TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='COUNTRY, CITY'>
+          <field>[COUNTRY]</field>
+          <field>[CITY]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='CONCESSIONS' id='CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='CONCESSIONS' table='[JMA].[PUBLIC].[CONCESSIONS]' type='table' />
+            </properties>
+          </object>
+          <object caption='DAILY_INVENTORY_LEVELS' id='DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='DAILY_INVENTORY_LEVELS' table='[JMA].[PUBLIC].[DAILY_INVENTORY_LEVELS]' type='table' />
+            </properties>
+          </object>
+          <object caption='GAMES' id='GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='GAMES' table='[JMA].[PUBLIC].[GAMES]' type='table' />
+            </properties>
+          </object>
+          <object caption='MERCHANDISE' id='MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='MERCHANDISE' table='[JMA].[PUBLIC].[MERCHANDISE]' type='table' />
+            </properties>
+          </object>
+          <object caption='PRODUCTS' id='PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='PRODUCTS' table='[JMA].[PUBLIC].[PRODUCTS]' type='table' />
+            </properties>
+          </object>
+          <object caption='SALES' id='SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='SALES' table='[JMA].[PUBLIC].[SALES]' type='table' />
+            </properties>
+          </object>
+          <object caption='SUPPLIERS' id='SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='SUPPLIERS' table='[JMA].[PUBLIC].[SUPPLIERS]' type='table' />
+            </properties>
+          </object>
+          <object caption='SUPPLIERS1' id='SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='SUPPLIERS1' table='[JMA].[PUBLIC].[SUPPLIERS]' type='table' />
+            </properties>
+          </object>
+          <object caption='TEAMS' id='TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F'>
+            <properties context=''>
+              <relation connection='snowflake.05mk2pw1dgm9xa1a0crz610ekrpb' name='TEAMS' table='[JMA].[PUBLIC].[TEAMS]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[PRODUCT_NAME]' />
+              <expression op='[ITEM (CONCESSIONS)]' />
+            </expression>
+            <first-end-point object-id='PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5' />
+            <second-end-point object-id='CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[ID (PRODUCTS)]' />
+              <expression op='[PRODUCT_ID]' />
+            </expression>
+            <first-end-point is-db-set-unique-key='true' object-id='PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5' unique-key='true' />
+            <second-end-point object-id='DAILY_INVENTORY_LEVELS (JMA.DAILY_INVENTORY_LEVELS)_6F10550195394052AB3CEB03BBFF7D59' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[GAME_ID]' />
+              <expression op='[ID (GAMES)]' />
+            </expression>
+            <first-end-point object-id='SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024' />
+            <second-end-point is-db-set-unique-key='true' object-id='GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[PRODUCT_NAME]' />
+              <expression op='[ITEM]' />
+            </expression>
+            <first-end-point object-id='PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5' />
+            <second-end-point object-id='MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[ITEM_NAME]' />
+              <expression op='[PRODUCT_NAME]' />
+            </expression>
+            <first-end-point object-id='SALES (JMA.SALES)_C6455C447B7D4E8C865D12A4900A3024' />
+            <second-end-point object-id='PRODUCTS (JMA.PRODUCTS)_1C20B83F640A4310A189D16A45829CD5' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[SUPPLIER_ID (CONCESSIONS)]' />
+              <expression op='[ID (SUPPLIERS)]' />
+            </expression>
+            <first-end-point object-id='CONCESSIONS (JMA.CONCESSIONS)_EB4E91E381324EDDAE8DCFC4FD70B149' />
+            <second-end-point is-db-set-unique-key='true' object-id='SUPPLIERS (JMA.SUPPLIERS)_24701655099D43959F58F6EA02032741' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[SUPPLIER_ID (MERCHANDISE)]' />
+              <expression op='[ID (SUPPLIERS1)]' />
+            </expression>
+            <first-end-point object-id='MERCHANDISE (JMA.MERCHANDISE)_CEEF27DAEA484633B12BA4709D8397AE' />
+            <second-end-point is-db-set-unique-key='true' object-id='SUPPLIERS (JMA.SUPPLIERS)_6E0C34C71EC34700B55B3622210FC596' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[AWAY_TEAM_ID]' />
+              <expression op='[ID (TEAMS)]' />
+            </expression>
+            <first-end-point object-id='GAMES (JMA.GAMES)_EFC3877DA2004C978EC80127225FE41B' />
+            <second-end-point is-db-set-unique-key='true' object-id='TEAMS (JMA.TEAMS)_CE5C93C509EA4690AEEFD1B46CD90E5F' unique-key='true' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+    <datasource caption='FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES) (PUBLIC)' inline='true' name='federated.0ki6esm1c6owfu13dmxmx12mscl2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='acgkiud-yob97136.snowflakecomputing.com' name='snowflake.1wbcrjb1rwjf5a18nfjmf0q09bo0'>
+            <connection authentication='Username Password' class='snowflake' dbname='JMA' max-varchar-size='' odbc-connect-string-extras='' one-time-sql='' schema='PUBLIC' server='acgkiud-yob97136.snowflakecomputing.com' service='ACCOUNTADMIN' username='dbgold' warehouse='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='snowflake.1wbcrjb1rwjf5a18nfjmf0q09bo0' name='FACT_PROMOTION_SALES' table='[JMA].[PUBLIC].[FACT_PROMOTION_SALES]' type='table' />
+          <relation connection='snowflake.1wbcrjb1rwjf5a18nfjmf0q09bo0' name='PROMOTIONS' table='[JMA].[PUBLIC].[PROMOTIONS]' type='table' />
+          <relation connection='snowflake.1wbcrjb1rwjf5a18nfjmf0q09bo0' name='SPONSORS' table='[JMA].[PUBLIC].[SPONSORS]' type='table' />
+        </relation>
+        <cols>
+          <map key='[BUSINESS_TYPE]' value='[SPONSORS].[BUSINESS_TYPE]' />
+          <map key='[CONTRACTLENGTH]' value='[FACT_PROMOTION_SALES].[CONTRACTLENGTH]' />
+          <map key='[CONTRACT_LENGTH]' value='[PROMOTIONS].[CONTRACT_LENGTH]' />
+          <map key='[DESCRIPTION]' value='[PROMOTIONS].[DESCRIPTION]' />
+          <map key='[ID (SPONSORS)]' value='[SPONSORS].[ID]' />
+          <map key='[ID]' value='[PROMOTIONS].[ID]' />
+          <map key='[PROMOSALEID]' value='[FACT_PROMOTION_SALES].[PROMOSALEID]' />
+          <map key='[PROMOTIONDATEKEY]' value='[FACT_PROMOTION_SALES].[PROMOTIONDATEKEY]' />
+          <map key='[PROMOTIONKEY]' value='[FACT_PROMOTION_SALES].[PROMOTIONKEY]' />
+          <map key='[PROMOTIONNAME]' value='[FACT_PROMOTION_SALES].[PROMOTIONNAME]' />
+          <map key='[PROMOTION_COST_PER_GAME]' value='[PROMOTIONS].[PROMOTION_COST_PER_GAME]' />
+          <map key='[PROMOTION_TYPE]' value='[PROMOTIONS].[PROMOTION_TYPE]' />
+          <map key='[SPONSOR (SPONSORS)]' value='[SPONSORS].[SPONSOR]' />
+          <map key='[SPONSORKEY]' value='[FACT_PROMOTION_SALES].[SPONSORKEY]' />
+          <map key='[SPONSORNAME]' value='[FACT_PROMOTION_SALES].[SPONSORNAME]' />
+          <map key='[SPONSOR]' value='[PROMOTIONS].[SPONSOR]' />
+          <map key='[SPONSOR_ID]' value='[PROMOTIONS].[SPONSOR_ID]' />
+          <map key='[SPORT (PROMOTIONS)]' value='[PROMOTIONS].[SPORT]' />
+          <map key='[SPORT]' value='[FACT_PROMOTION_SALES].[SPORT]' />
+          <map key='[TITLE]' value='[PROMOTIONS].[TITLE]' />
+          <map key='[TOTALPAYMENT]' value='[FACT_PROMOTION_SALES].[TOTALPAYMENT]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>PROMOSALEID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[PROMOSALEID]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>PROMOSALEID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROMOTIONDATEKEY</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[PROMOTIONDATEKEY]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>PROMOTIONDATEKEY</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROMOTIONKEY</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[PROMOTIONKEY]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>PROMOTIONKEY</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPONSORKEY</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SPONSORKEY]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>SPONSORKEY</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROMOTIONNAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PROMOTIONNAME]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>PROMOTIONNAME</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16777216</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPORT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPORT]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>SPORT</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16777216</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPONSORNAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPONSORNAME]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>SPONSORNAME</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16777216</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONTRACTLENGTH</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[CONTRACTLENGTH]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>CONTRACTLENGTH</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTALPAYMENT</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[TOTALPAYMENT]</local-name>
+            <parent-name>[FACT_PROMOTION_SALES]</parent-name>
+            <remote-alias>TOTALPAYMENT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TITLE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TITLE]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>TITLE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPORT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPORT (PROMOTIONS)]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>SPORT</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROMOTION_COST_PER_GAME</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[PROMOTION_COST_PER_GAME]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>PROMOTION_COST_PER_GAME</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROMOTION_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PROMOTION_TYPE]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>PROMOTION_TYPE</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONTRACT_LENGTH</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[CONTRACT_LENGTH]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>CONTRACT_LENGTH</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DESCRIPTION]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>DESCRIPTION</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>16777216</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPONSOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPONSOR]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>SPONSOR</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPONSOR_ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SPONSOR_ID]</local-name>
+            <parent-name>[PROMOTIONS]</parent-name>
+            <remote-alias>SPONSOR_ID</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ID (SPONSORS)]</local-name>
+            <parent-name>[SPONSORS]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>38</precision>
+            <scale>0</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[SPONSORS (JMA.SPONSORS)_CF5C0C97266C42ADAB2311808E0C1873]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPONSOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPONSOR (SPONSORS)]</local-name>
+            <parent-name>[SPONSORS]</parent-name>
+            <remote-alias>SPONSOR</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SPONSORS (JMA.SPONSORS)_CF5C0C97266C42ADAB2311808E0C1873]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BUSINESS_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BUSINESS_TYPE]</local-name>
+            <parent-name>[SPONSORS]</parent-name>
+            <remote-alias>BUSINESS_TYPE</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[SPONSORS (JMA.SPONSORS)_CF5C0C97266C42ADAB2311808E0C1873]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Business Type' datatype='string' name='[BUSINESS_TYPE]' role='dimension' type='nominal' />
+      <column caption='Contractlength' datatype='integer' name='[CONTRACTLENGTH]' role='measure' type='quantitative' />
+      <column caption='Contract Length' datatype='integer' name='[CONTRACT_LENGTH]' role='measure' type='quantitative' />
+      <column caption='Description' datatype='string' name='[DESCRIPTION]' role='dimension' type='nominal' />
+      <column caption='Id (Sponsors)' datatype='integer' name='[ID (SPONSORS)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column caption='Promosaleid' datatype='integer' name='[PROMOSALEID]' role='measure' type='quantitative' />
+      <column caption='Promotiondatekey' datatype='integer' name='[PROMOTIONDATEKEY]' role='measure' type='quantitative' />
+      <column caption='Promotionkey' datatype='integer' name='[PROMOTIONKEY]' role='measure' type='quantitative' />
+      <column caption='Promotionname' datatype='string' name='[PROMOTIONNAME]' role='dimension' type='nominal' />
+      <column caption='Promotion Cost Per Game' datatype='real' name='[PROMOTION_COST_PER_GAME]' role='measure' type='quantitative' />
+      <column caption='Promotion Type' datatype='string' name='[PROMOTION_TYPE]' role='dimension' type='nominal' />
+      <column caption='Sponsor (Sponsors)' datatype='string' name='[SPONSOR (SPONSORS)]' role='dimension' type='nominal' />
+      <column caption='Sponsorkey' datatype='integer' name='[SPONSORKEY]' role='measure' type='quantitative' />
+      <column caption='Sponsorname' datatype='string' name='[SPONSORNAME]' role='dimension' type='nominal' />
+      <column caption='Sponsor' datatype='string' name='[SPONSOR]' role='dimension' type='nominal' />
+      <column caption='Sponsor Id' datatype='integer' name='[SPONSOR_ID]' role='dimension' type='ordinal' />
+      <column caption='Sport (Promotions)' datatype='string' name='[SPORT (PROMOTIONS)]' role='dimension' type='nominal' />
+      <column caption='Sport' datatype='string' name='[SPORT]' role='dimension' type='nominal' />
+      <column caption='Title' datatype='string' name='[TITLE]' role='dimension' type='nominal' />
+      <column caption='Totalpayment' datatype='real' default-format='C1033%' name='[TOTALPAYMENT]' role='measure' type='quantitative' />
+      <column caption='FACT_PROMOTION_SALES' datatype='table' name='[__tableau_internal_object_id__].[FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358]' role='measure' type='quantitative' />
+      <column caption='PROMOTIONS' datatype='table' name='[__tableau_internal_object_id__].[PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9]' role='measure' type='quantitative' />
+      <column caption='SPONSORS' datatype='table' name='[__tableau_internal_object_id__].[SPONSORS (JMA.SPONSORS)_CF5C0C97266C42ADAB2311808E0C1873]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='FACT_PROMOTION_SALES' id='FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358'>
+            <properties context=''>
+              <relation connection='snowflake.1wbcrjb1rwjf5a18nfjmf0q09bo0' name='FACT_PROMOTION_SALES' table='[JMA].[PUBLIC].[FACT_PROMOTION_SALES]' type='table' />
+            </properties>
+          </object>
+          <object caption='PROMOTIONS' id='PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9'>
+            <properties context=''>
+              <relation connection='snowflake.1wbcrjb1rwjf5a18nfjmf0q09bo0' name='PROMOTIONS' table='[JMA].[PUBLIC].[PROMOTIONS]' type='table' />
+            </properties>
+          </object>
+          <object caption='SPONSORS' id='SPONSORS (JMA.SPONSORS)_CF5C0C97266C42ADAB2311808E0C1873'>
+            <properties context=''>
+              <relation connection='snowflake.1wbcrjb1rwjf5a18nfjmf0q09bo0' name='SPONSORS' table='[JMA].[PUBLIC].[SPONSORS]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[PROMOTIONNAME]' />
+              <expression op='[TITLE]' />
+            </expression>
+            <first-end-point object-id='FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358' />
+            <second-end-point object-id='PROMOTIONS (JMA.PROMOTIONS)_91786DC96A3C41A2886F0A551D4518A9' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[SPONSORNAME]' />
+              <expression op='[SPONSOR (SPONSORS)]' />
+            </expression>
+            <first-end-point object-id='FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES)_7F270FB8048D4CF4AC1A0135E8097358' />
+            <second-end-point object-id='SPONSORS (JMA.SPONSORS)_CF5C0C97266C42ADAB2311808E0C1873' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Promotions Revenue By Sport'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES) (PUBLIC)' name='federated.0ki6esm1c6owfu13dmxmx12mscl2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ki6esm1c6owfu13dmxmx12mscl2'>
+            <column caption='Sport' datatype='string' name='[SPORT]' role='dimension' type='nominal' />
+            <column caption='Totalpayment' datatype='real' default-format='C1033%' name='[TOTALPAYMENT]' role='measure' type='quantitative' />
+            <column-instance column='[SPORT]' derivation='None' name='[none:SPORT:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TOTALPAYMENT]' derivation='Sum' name='[sum:TOTALPAYMENT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[sum:TOTALPAYMENT:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#1a1c51' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ki6esm1c6owfu13dmxmx12mscl2].[sum:TOTALPAYMENT:qk]</rows>
+        <cols>[federated.0ki6esm1c6owfu13dmxmx12mscl2].[none:SPORT:nk]</cols>
+      </table>
+      <simple-id uuid='{671D5160-5BBC-438C-8A81-9B71007E1FED}' />
+    </worksheet>
+    <worksheet name='Proportion of Promotions Revenue by Sponsor'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='FACT_PROMOTION_SALES (JMA.FACT_PROMOTION_SALES) (PUBLIC)' name='federated.0ki6esm1c6owfu13dmxmx12mscl2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ki6esm1c6owfu13dmxmx12mscl2'>
+            <column caption='Sponsor (Sponsors)' datatype='string' name='[SPONSOR (SPONSORS)]' role='dimension' type='nominal' />
+            <column caption='Totalpayment' datatype='real' default-format='C1033%' name='[TOTALPAYMENT]' role='measure' type='quantitative' />
+            <column-instance column='[SPONSOR (SPONSORS)]' derivation='None' name='[none:SPONSOR (SPONSORS):nk]' pivot='key' type='nominal' />
+            <column-instance column='[TOTALPAYMENT]' derivation='Sum' name='[pcto:sum:TOTALPAYMENT:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TOTALPAYMENT]' derivation='Sum' name='[sum:TOTALPAYMENT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[sum:TOTALPAYMENT:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d1d2e1</color>
+                <color>#b4b5d1</color>
+                <color>#999bc1</color>
+                <color>#8082b1</color>
+                <color>#6a6ca1</color>
+                <color>#555891</color>
+                <color>#434581</color>
+                <color>#333571</color>
+                <color>#252761</color>
+                <color>#1a1c51</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[pcto:sum:TOTALPAYMENT:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d1d2e1</color>
+                <color>#b4b5d1</color>
+                <color>#999bc1</color>
+                <color>#8082b1</color>
+                <color>#6a6ca1</color>
+                <color>#555891</color>
+                <color>#434581</color>
+                <color>#333571</color>
+                <color>#252761</color>
+                <color>#1a1c51</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[sum:TOTALPAYMENT:qk]' />
+              <color column='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[sum:TOTALPAYMENT:qk]' />
+              <text column='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[none:SPONSOR (SPONSORS):nk]' />
+              <text column='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[pcto:sum:TOTALPAYMENT:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B3A278E0-F268-49B6-8161-88DAEF836C1D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='Promotions Revenue By Sport'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0iz6ylr1fookaz11jzllw0dayfyy].[none:ITEM_TYPE:nk]</field>
+            <field>[federated.0iz6ylr1fookaz11jzllw0dayfyy].[yr:DATE:ok]</field>
+            <field>[federated.0ki6esm1c6owfu13dmxmx12mscl2].[none:SPORT:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{063F11E8-A98A-4184-832C-F663E0ACBE8F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Proportion of Promotions Revenue by Sponsor'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ki6esm1c6owfu13dmxmx12mscl2].[sum:TOTALPAYMENT:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ki6esm1c6owfu13dmxmx12mscl2].[none:SPONSOR (SPONSORS):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{96E64E31-5A87-4C9C-8492-727ABD2CF771}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Promotions Revenue By Sport' width='384'>
+      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
+      2UgAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='384' name='Proportion of Promotions Revenue by Sponsor' width='384'>
+      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
+      Al2dTUQjASoVXQkvT96mtgB6uls5/twQmUyO/fv7yObyVCo1fvn2JQrFMrD2Lb+trYnh+/v+
+      /+vfvb9+EVitVmdubpkXzxwC4OzHa2MAVSpVPjp7g0KhTE9PGz6/h1u3Jz53PkS2k2VZHDzQ
+      g21bDA/Ps7iYY8eOJE7D5f0P7vL8iUHa2+PMzWcZG1vi1Mmd9HQ3Y1nw7ru3AfB6bRYXc8zN
+      rrC0tMpLL+5hYjJFPq+z3+TJ29KhILaaLnuXZ8XnDQVhWWu/p5+9wv2Bzw59YtvW/WNoj34d
+      y0JnAclT88SuBN4KWvnLs851v/j39LNh+LxQfHp6Ik+LrgQWETGUAiAiYigFQETEUAqAiIih
+      FAAREUMpACIihlIAREQMpQCIiBhKARARMZQCICJiKAVARMRQCoCIiKEUABERQykAIiKGUgBE
+      RAylAIiIGEoBEBExlAIgImIoBUBExFAKgIiIoRQAERFDKQAiIoZSAEREDKUAiIgYSgEQETGU
+      AiAiYigFQETEUAqAiIihFAAREUMpACIihlIAREQMpQCIiBhKARARMZQCICJiKAVARMRQCoCI
+      iKEUABERQykAIiKGUgBERAylAIiIGEoBEBExlAIgImIoBUBExFAKgIiIoRQAERFDKQAiIoZS
+      AEREDKUAiIgYSgEQETGUAiAiYigFQETEUAqAiIihFAAREUMpACIihlIAREQMpQCIiBhKARAR
+      MZQCICJiKAVARMRQCoCIiKEUABERQykAIiKGUgBERAylAIiIGEoBEBExlAIgImIoBUBExFAK
+      gIiIoRQAERFDKQAiIoZSAEREDKUAiIgYSgEQETGUAiAiYigFQETEUAqAiIihFAAREUMpACIi
+      hlIAREQMpQCIiBhKARARMZQCICJiKAVARMRQCoCIiKEUABERQykAIiKGUgBERAylAIiIGEoB
+      EBExlAIgImIoBUBExFAKgIiIobzbPQMi3wTRaJATJwa3ezZEtpQCIPIV+LweWpKx7Z4NkS2l
+      AIh8BcVSlZs3Z7d7NkS2lI4BiIgYSgEQETGUAiAiYigFQETEUAqAiIihdBaQyCbZtsXgYBtj
+      Y0s4jktPTzPZbJF8vvLY025ujrB/XxeWBUtLq9wdXtj0tEIhH47jUqnUH3u+5NtFWwAim2Tb
+      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
+      yJb6b2NgfsP0nTntAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
